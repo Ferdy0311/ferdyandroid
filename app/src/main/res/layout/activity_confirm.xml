@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_confirm"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="com.bahaso.Confirm">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:background="@color/bahaso_blue"
+        app:titleTextColor="#FFFFFF"
+        app:titleTextAppearance="@style/Toolbar.TitleText"
+        app:contentInsetStartWithNavigation="0dp"
+        app:contentInsetLeft="0dp" />
+
+    <TextView
+        android:id="@+id/txt_header_konfirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/confirmation_text"
+        android:textSize="16sp"
+        android:textColor="@color/bahaso_black" />
+
+    <TextView
+        android:id="@+id/text_email_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_header_konfirm"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="@color/bahaso_black" />
+
+    <EditText
+        android:id="@+id/edit_text_confirm_code"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_below="@+id/text_email_user"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/selector_edittext_rectangle_rounded"
+        android:padding="4dp"
+        android:hint="@string/text_confirm_password"
+        android:textColorHint="@color/bahaso_darker_gray"
+        android:textSize="16sp"
+        android:textColor="@color/bahaso_black_gray"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:gravity="center" />
+
+    <LinearLayout
+        android:id="@+id/layout_btn_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/background_btn_login"
+        android:clickable="true"
+        android:onClick="onClick_confirm"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/text_confirm"
+            android:textSize="16sp"
+            android:textColor="@drawable/text_color_gold"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_resend_email_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_text_confirm_code"
+        android:layout_marginTop="14dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="@string/text_resend_email"
+        android:textSize="16sp"
+        android:textColor="@color/bahaso_blue"
+        android:clickable="true"
+        android:onClick="onClick_confirm"/>
+
+
+</RelativeLayout>

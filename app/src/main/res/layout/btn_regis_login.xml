@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_btn_regis_login"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:weightSum="1"
+    android:baselineAligned="false"
+    android:visibility="gone">
+
+    <LinearLayout
+        android:id="@+id/btn_daftar_baru"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="0.5"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_gravity="start"
+        android:gravity="center"
+        android:background="@drawable/background_btn_splash"
+        android:orientation="vertical"
+        android:clickable="true"
+        android:onClick="onClick_splash">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register"
+            android:textSize="18sp"
+            android:textColor="@drawable/text_color_login" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btn_email_login"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="0.5"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_gravity="start"
+        android:gravity="center"
+        android:background="@drawable/background_btn_splash"
+        android:orientation="vertical"
+        android:clickable="true"
+        android:onClick="onClick_splash">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            android:textSize="18sp"
+            android:textColor="@drawable/text_color_login"/>
+
+    </LinearLayout>
+
+</LinearLayout>

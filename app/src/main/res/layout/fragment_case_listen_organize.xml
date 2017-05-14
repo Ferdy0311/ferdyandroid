@@ -1,0 +1,26 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tlv="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- replaced in body
+    <include layout="@layout/case_instruction_text" /> -->
+
+    <include layout="@layout/case_single_speaker_medium" />
+
+    <com.bahaso.widget.TouchListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/touch_list_view"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="4dp"
+        tlv:grabber="@+id/draggable"
+        tlv:normal_height="30dp"
+        tlv:expanded_height="40dp"
+        android:padding="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp">
+    </com.bahaso.widget.TouchListView>
+</LinearLayout>

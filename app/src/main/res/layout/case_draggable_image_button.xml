@@ -1,0 +1,39 @@
+<!--<com.bahaso.widget.MuseoTextView-->
+    <!--android:layout_width="@dimen/min_width_smaller_view"-->
+    <!--android:layout_height="@dimen/min_height_medium_button"-->
+    <!--android:textSize="@dimen/medium_font_size"-->
+    <!--android:background="@drawable/selector_rect_selectable_rounded2"-->
+    <!--android:textColor="@color/selector_text_black2white"-->
+    <!--android:layout_margin="@dimen/spacing_4"-->
+    <!--android:gravity="center"-->
+    <!--android:padding="@dimen/spacing_4"-->
+    <!--android:clickable="true"-->
+    <!--android:focusable="true"-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android">-->
+
+<!--</com.bahaso.widget.MuseoTextView>-->
+
+<FrameLayout
+    android:layout_width="132dp"
+    android:layout_height="82dp"
+    android:layout_margin="4dp"
+    android:clickable="true"
+    android:focusable="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--android:background="@drawable/selector_rect_selectable_rounded2"-->
+    <!--android:padding="@dimen/spacing_4"-->
+
+    <!-- must be child 0 -->
+    <ImageView
+        android:id="@+id/iv_dragable_item"
+        android:layout_width="128dp"
+        android:layout_height="78dp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center"/>
+    <!-- android:textColor="@color/bahaso_text_primary" -->
+    <View android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/selector_recttrans_selectablestroke_nocorner" />
+</FrameLayout>
+

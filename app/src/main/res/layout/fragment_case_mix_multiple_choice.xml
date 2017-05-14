@@ -1,0 +1,46 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!--
+        <include layout="@layout/case_instruction_text" /> -->
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="8dp" />
+
+        <include layout="@layout/case_single_speaker_medium"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="16dp"/>
+
+        <include layout="@layout/case_single_image_with_frame"/>
+
+        <TextView
+            android:id="@+id/questionText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:visibility="gone"
+            android:textSize="16sp"/>
+
+        <LinearLayout
+            android:id="@+id/buttonGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

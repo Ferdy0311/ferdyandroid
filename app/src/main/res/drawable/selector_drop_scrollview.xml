@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.bahaso">
+
+    <!-- selected -->
+    <item app:state_dropped="false" >
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="@color/bahaso_gray" />
+        </shape>
+    </item>
+
+    <item app:state_dropped="true">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="@color/bahaso_darker_gray" />
+        </shape>
+    </item>
+
+</selector>

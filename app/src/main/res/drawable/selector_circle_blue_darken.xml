@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="false"
+        android:drawable="@drawable/circle_blue">
+    </item>
+    <item android:state_pressed="true"
+        android:drawable="@drawable/circle_dark_blue">
+    </item>
+
+    <item android:state_selected="true"
+        android:drawable="@drawable/circle_dark_blue">
+    </item>
+
+</selector>
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<layer-list xmlns:android="http://schemas.android.com/apk/res/android">-->
+
+<!--<item>-->
+    <!--<shape-->
+        <!--android:shape="oval"-->
+        <!--xmlns:android="http://schemas.android.com/apk/res/android">-->
+        <!--<solid android:color="@color/bahaso_darker_blue"/>-->
+    <!--</shape>-->
+<!--</item>-->
+
+<!--&lt;!&ndash; White Top color &ndash;&gt;-->
+<!--<item-->
+    <!--android:id="@+id/circle_blue_darken"-->
+    <!--android:bottom="@dimen/stroke_shadow_width"-->
+    <!--android:right="@dimen/stroke_shadow_width"-->
+    <!--android:top="@dimen/stroke_shadow_width"-->
+    <!--android:left="@dimen/stroke_shadow_width"-->
+    <!--android:drawable="@drawable/selector_circle_blue_darken">-->
+
+<!--</item>-->
+
+<!--</layer-list>-->

@@ -1,0 +1,67 @@
+<!--<LinearLayout-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:orientation="vertical"-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android">-->
+
+    <!--
+    <include layout="@layout/case_instruction_text"/> -->
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!--<ImageView-->
+        <!--android:id="@+id/image"-->
+        <!--android:layout_width="@dimen/bahaso_case_imagesrc_large_width"-->
+        <!--android:layout_height="@dimen/bahaso_case_imagesrc_large_height"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:layout_marginBottom="@dimen/spacing_8"-->
+        <!--android:src="@drawable/test_gambar"/>-->
+
+        <include layout="@layout/case_single_image_with_frame" />
+
+        <include layout="@layout/case_single_speaker_medium" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
+
+        <TextView
+            android:id="@+id/tv_question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_textcase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textSize="14sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
+
+        <include layout="@layout/case_true_button" />
+
+        <include layout="@layout/case_false_button" />
+
+    </LinearLayout>
+</ScrollView>
+
+
+<!--</LinearLayout>-->

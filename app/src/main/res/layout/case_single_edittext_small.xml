@@ -1,0 +1,15 @@
+<EditText
+    android:id="@+id/editText"
+    android:layout_width="132dp"
+    android:layout_height="26dp"
+    android:gravity="center"
+    android:textColor="@color/selector_text_black2white"
+    android:background="@drawable/selector_edittext_rectangle_activated"
+    android:textSize="14sp"
+    android:layout_gravity="center"
+    android:maxLines="1"
+    android:imeOptions="actionNext"
+    android:layout_marginTop="1dp"
+    android:layout_marginBottom="1dp"
+    android:inputType="textNoSuggestions|textVisiblePassword"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

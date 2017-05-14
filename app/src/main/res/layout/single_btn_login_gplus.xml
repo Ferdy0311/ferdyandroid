@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_btn_login_gplus"
+    android:layout_width="264dp"
+    android:layout_height="40dp"
+    android:layout_marginTop="8dp"
+    android:layout_gravity="center"
+    android:gravity="start|center"
+    android:background="@drawable/background_btn_splash_gplus"
+    android:clickable="true"
+    android:onClick="onClick_splash"
+    android:visibility="gone">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/icon_gplus"
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:layout_marginLeft="46dp"
+        android:layout_marginStart="46dp"
+        app:srcCompat="@drawable/svg_icon_gplus" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/icon_gplus"
+        android:layout_toEndOf="@+id/icon_gplus"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginStart="7dp"
+        android:text="@string/sign_in_with_google" />
+
+</RelativeLayout>

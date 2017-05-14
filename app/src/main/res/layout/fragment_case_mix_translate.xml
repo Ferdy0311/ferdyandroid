@@ -1,0 +1,33 @@
+<!--<FrameLayout-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_width="match_parent"-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android">-->
+
+    <!--
+    <include layout="@layout/case_instruction_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" /> -->
+    <!-- no need to worry of overlapping at landscape since single speaker is small -->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <include layout="@layout/case_single_speaker_large"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center"/>
+
+    <include layout="@layout/case_single_edittext_matchparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>
+
+<!--</FrameLayout>-->

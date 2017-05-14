@@ -1,0 +1,13 @@
+<TextView
+    android:id="@+id/tv_speech_result"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:padding="4dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp"
+    android:layout_marginLeft="32dp"
+    android:layout_marginRight="32dp"
+    android:background="@drawable/selector_rect_selectable_nocorner"
+    android:textColor="@color/selector_text_black2white"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

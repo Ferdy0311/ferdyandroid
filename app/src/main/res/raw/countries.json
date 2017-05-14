@@ -1,0 +1,1496 @@
+[
+  {
+    "ori_id": "558395c0938e8ef63d8b456a",
+    "name": "Afghanistan",
+    "calling_code": "93",
+    "id": "AF"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b456b",
+    "name": "Albania",
+    "calling_code": "355",
+    "id": "AL"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b456c",
+    "name": "Antarctica",
+    "calling_code": "672",
+    "id": "AQ"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b456d",
+    "name": "Algeria",
+    "calling_code": "213",
+    "id": "DZ"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b456e",
+    "name": "American Samoa",
+    "calling_code": "1",
+    "id": "AS"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b456f",
+    "name": "Andorra",
+    "calling_code": "376",
+    "id": "AD"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4570",
+    "name": "Angola",
+    "calling_code": "244",
+    "id": "AO"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4571",
+    "name": "Antigua and Barbuda",
+    "calling_code": "1",
+    "id": "AG"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4572",
+    "name": "Azerbaijan",
+    "calling_code": "994",
+    "id": "AZ"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4573",
+    "name": "Argentina",
+    "calling_code": "54",
+    "id": "AR"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4574",
+    "name": "Australia",
+    "calling_code": "61",
+    "id": "AU"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4575",
+    "name": "Austria",
+    "calling_code": "43",
+    "id": "AT"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4576",
+    "name": "Bahamas",
+    "calling_code": "1",
+    "id": "BS"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4577",
+    "name": "Bahrain",
+    "calling_code": "973",
+    "id": "BH"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4578",
+    "name": "Bangladesh",
+    "calling_code": "880",
+    "id": "BD"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4579",
+    "name": "Armenia",
+    "calling_code": "374",
+    "id": "AM"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b457a",
+    "name": "Barbados",
+    "calling_code": "1",
+    "id": "BB"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b457b",
+    "name": "Belgium",
+    "calling_code": "32",
+    "id": "BE"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b457c",
+    "name": "Bermuda",
+    "calling_code": "1",
+    "id": "BM"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b457d",
+    "name": "Bhutan",
+    "calling_code": "975",
+    "id": "BT"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b457e",
+    "name": "Bolivia, Plurinational State of",
+    "calling_code": "591",
+    "id": "BO"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b457f",
+    "name": "Bosnia and Herzegovina",
+    "calling_code": "387",
+    "id": "BA"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4580",
+    "name": "Botswana",
+    "calling_code": "267",
+    "id": "BW"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4581",
+    "name": "Bouvet Island",
+    "calling_code": "47",
+    "id": "BV"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4582",
+    "name": "Brazil",
+    "calling_code": "55",
+    "id": "BR"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4583",
+    "name": "Belize",
+    "calling_code": "501",
+    "id": "BZ"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4584",
+    "name": "British Indian Ocean Territory",
+    "calling_code": "246",
+    "id": "IO"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4585",
+    "name": "Solomon Islands",
+    "calling_code": "677",
+    "id": "SB"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4586",
+    "name": "Virgin Islands, British",
+    "calling_code": "1",
+    "id": "VG"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4587",
+    "name": "Brunei Darussalam",
+    "calling_code": "673",
+    "id": "BN"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4588",
+    "name": "Bulgaria",
+    "calling_code": "359",
+    "id": "BG"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4589",
+    "name": "Myanmar",
+    "calling_code": "95",
+    "id": "MM"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b458a",
+    "name": "Burundi",
+    "calling_code": "257",
+    "id": "BI"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b458b",
+    "name": "Belarus",
+    "calling_code": "375",
+    "id": "BY"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b458c",
+    "name": "Cambodia",
+    "calling_code": "855",
+    "id": "KH"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b458d",
+    "name": "Cameroon",
+    "calling_code": "237",
+    "id": "CM"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b458e",
+    "name": "Canada",
+    "calling_code": "1",
+    "id": "CA"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b458f",
+    "name": "Cape Verde",
+    "calling_code": "238",
+    "id": "CV"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4590",
+    "name": "Cayman Islands",
+    "calling_code": "1",
+    "id": "KY"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4591",
+    "name": "Central African Republic",
+    "calling_code": "236",
+    "id": "CF"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4592",
+    "name": "Sri Lanka",
+    "calling_code": "94",
+    "id": "LK"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4593",
+    "name": "Chad",
+    "calling_code": "235",
+    "id": "TD"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4594",
+    "name": "Chile",
+    "calling_code": "56",
+    "id": "CL"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4595",
+    "name": "China",
+    "calling_code": "86",
+    "id": "CN"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4596",
+    "name": "Taiwan, Province of China",
+    "calling_code": "886",
+    "id": "TW"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4597",
+    "name": "Christmas Island",
+    "calling_code": "61",
+    "id": "CX"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4598",
+    "name": "Cocos (Keeling) Islands",
+    "calling_code": "61",
+    "id": "CC"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4599",
+    "name": "Colombia",
+    "calling_code": "57",
+    "id": "CO"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b459a",
+    "name": "Comoros",
+    "calling_code": "269",
+    "id": "KM"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b459b",
+    "name": "Mayotte",
+    "calling_code": "262",
+    "id": "YT"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b459c",
+    "name": "Congo",
+    "calling_code": "242",
+    "id": "CG"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b459d",
+    "name": "Congo, the Democratic Republic of the",
+    "calling_code": "243",
+    "id": "CD"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b459e",
+    "name": "Cook Islands",
+    "calling_code": "682",
+    "id": "CK"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b459f",
+    "name": "Costa Rica",
+    "calling_code": "506",
+    "id": "CR"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45a0",
+    "name": "Croatia",
+    "calling_code": "385",
+    "id": "HR"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45a1",
+    "name": "Cuba",
+    "calling_code": "53",
+    "id": "CU"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45a2",
+    "name": "Cyprus",
+    "calling_code": "357",
+    "id": "CY"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45a3",
+    "name": "Czech Republic",
+    "calling_code": "420",
+    "id": "CZ"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45a4",
+    "name": "Benin",
+    "calling_code": "229",
+    "id": "BJ"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45a5",
+    "name": "Denmark",
+    "calling_code": "45",
+    "id": "DK"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45a6",
+    "name": "Dominica",
+    "calling_code": "1",
+    "id": "DM"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45a7",
+    "name": "Dominican Republic",
+    "calling_code": "1",
+    "id": "DO"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45a8",
+    "name": "Ecuador",
+    "calling_code": "593",
+    "id": "EC"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45a9",
+    "name": "El Salvador",
+    "calling_code": "503",
+    "id": "SV"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45aa",
+    "name": "Equatorial Guinea",
+    "calling_code": "240",
+    "id": "GQ"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45ab",
+    "name": "Ethiopia",
+    "calling_code": "251",
+    "id": "ET"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45ac",
+    "name": "Eritrea",
+    "calling_code": "291",
+    "id": "ER"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45ad",
+    "name": "Estonia",
+    "calling_code": "372",
+    "id": "EE"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45ae",
+    "name": "Faroe Islands",
+    "calling_code": "298",
+    "id": "FO"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45af",
+    "name": "Falkland Islands (Malvinas)",
+    "calling_code": "500",
+    "id": "FK"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45b0",
+    "name": "South Georgia and the South Sandwich Islands",
+    "calling_code": "44",
+    "id": "GS"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45b1",
+    "name": "Fiji",
+    "calling_code": "679",
+    "id": "FJ"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45b2",
+    "name": "Finland",
+    "calling_code": "358",
+    "id": "FI"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45b3",
+    "name": "Åland Islands",
+    "calling_code": "358",
+    "id": "AX"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45b4",
+    "name": "France",
+    "calling_code": "33",
+    "id": "FR"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45b5",
+    "name": "French Guiana",
+    "calling_code": "594",
+    "id": "GF"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45b6",
+    "name": "French Polynesia",
+    "calling_code": "689",
+    "id": "PF"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45b7",
+    "name": "French Southern Territories",
+    "calling_code": "33",
+    "id": "TF"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45b8",
+    "name": "Djibouti",
+    "calling_code": "253",
+    "id": "DJ"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45b9",
+    "name": "Gabon",
+    "calling_code": "241",
+    "id": "GA"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45ba",
+    "name": "Georgia",
+    "calling_code": "995",
+    "id": "GE"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45bb",
+    "name": "Gambia",
+    "calling_code": "220",
+    "id": "GM"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45bc",
+    "name": "Palestinian Territory, Occupied",
+    "calling_code": "970",
+    "id": "PS"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45bd",
+    "name": "Germany",
+    "calling_code": "49",
+    "id": "DE"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45be",
+    "name": "Ghana",
+    "calling_code": "233",
+    "id": "GH"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45bf",
+    "name": "Gibraltar",
+    "calling_code": "350",
+    "id": "GI"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45c0",
+    "name": "Kiribati",
+    "calling_code": "686",
+    "id": "KI"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45c1",
+    "name": "Greece",
+    "calling_code": "30",
+    "id": "GR"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45c2",
+    "name": "Greenland",
+    "calling_code": "299",
+    "id": "GL"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45c3",
+    "name": "Grenada",
+    "calling_code": "1",
+    "id": "GD"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45c4",
+    "name": "Guadeloupe",
+    "calling_code": "590",
+    "id": "GP"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45c5",
+    "name": "Guam",
+    "calling_code": "1",
+    "id": "GU"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45c6",
+    "name": "Guatemala",
+    "calling_code": "502",
+    "id": "GT"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45c7",
+    "name": "Guinea",
+    "calling_code": "224",
+    "id": "GN"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45c8",
+    "name": "Guyana",
+    "calling_code": "592",
+    "id": "GY"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45c9",
+    "name": "Haiti",
+    "calling_code": "509",
+    "id": "HT"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45ca",
+    "name": "Heard Island and McDonald Islands",
+    "calling_code": "61",
+    "id": "HM"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45cb",
+    "name": "Holy See (Vatican City State)",
+    "calling_code": "39",
+    "id": "VA"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45cc",
+    "name": "Honduras",
+    "calling_code": "504",
+    "id": "HN"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45cd",
+    "name": "Hong Kong",
+    "calling_code": "852",
+    "id": "HK"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45ce",
+    "name": "Hungary",
+    "calling_code": "36",
+    "id": "HU"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45cf",
+    "name": "Iceland",
+    "calling_code": "354",
+    "id": "IS"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45d0",
+    "name": "India",
+    "calling_code": "91",
+    "id": "IN"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45d1",
+    "name": "Indonesia",
+    "calling_code": "62",
+    "id": "ID"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45d2",
+    "name": "Iran, Islamic Republic of",
+    "calling_code": "98",
+    "id": "IR"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45d3",
+    "name": "Iraq",
+    "calling_code": "964",
+    "id": "IQ"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45d4",
+    "name": "Ireland",
+    "calling_code": "353",
+    "id": "IE"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45d5",
+    "name": "Israel",
+    "calling_code": "972",
+    "id": "IL"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45d6",
+    "name": "Italy",
+    "calling_code": "39",
+    "id": "IT"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45d7",
+    "name": "Côte d'Ivoire",
+    "calling_code": "225",
+    "id": "CI"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45d8",
+    "name": "Jamaica",
+    "calling_code": "1",
+    "id": "JM"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45d9",
+    "name": "Japan",
+    "calling_code": "81",
+    "id": "JP"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45da",
+    "name": "Kazakhstan",
+    "calling_code": "7",
+    "id": "KZ"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45db",
+    "name": "Jordan",
+    "calling_code": "962",
+    "id": "JO"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45dc",
+    "name": "Kenya",
+    "calling_code": "254",
+    "id": "KE"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45dd",
+    "name": "Korea, Democratic People's Republic of",
+    "calling_code": "850",
+    "id": "KP"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45de",
+    "name": "Korea, Republic of",
+    "calling_code": "82",
+    "id": "KR"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45df",
+    "name": "Kuwait",
+    "calling_code": "965",
+    "id": "KW"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45e0",
+    "name": "Kyrgyzstan",
+    "calling_code": "996",
+    "id": "KG"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45e1",
+    "name": "Lao People's Democratic Republic",
+    "calling_code": "856",
+    "id": "LA"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45e2",
+    "name": "Lebanon",
+    "calling_code": "961",
+    "id": "LB"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45e3",
+    "name": "Lesotho",
+    "calling_code": "266",
+    "id": "LS"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45e4",
+    "name": "Latvia",
+    "calling_code": "371",
+    "id": "LV"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45e5",
+    "name": "Liberia",
+    "calling_code": "231",
+    "id": "LR"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45e6",
+    "name": "Libya",
+    "calling_code": "218",
+    "id": "LY"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45e7",
+    "name": "Liechtenstein",
+    "calling_code": "423",
+    "id": "LI"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45e8",
+    "name": "Lithuania",
+    "calling_code": "370",
+    "id": "LT"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45e9",
+    "name": "Luxembourg",
+    "calling_code": "352",
+    "id": "LU"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45ea",
+    "name": "Macao",
+    "calling_code": "853",
+    "id": "MO"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45eb",
+    "name": "Madagascar",
+    "calling_code": "261",
+    "id": "MG"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45ec",
+    "name": "Malawi",
+    "calling_code": "265",
+    "id": "MW"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45ed",
+    "name": "Malaysia",
+    "calling_code": "60",
+    "id": "MY"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45ee",
+    "name": "Maldives",
+    "calling_code": "960",
+    "id": "MV"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45ef",
+    "name": "Mali",
+    "calling_code": "223",
+    "id": "ML"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45f0",
+    "name": "Malta",
+    "calling_code": "356",
+    "id": "MT"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45f1",
+    "name": "Martinique",
+    "calling_code": "596",
+    "id": "MQ"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45f2",
+    "name": "Mauritania",
+    "calling_code": "222",
+    "id": "MR"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45f3",
+    "name": "Mauritius",
+    "calling_code": "230",
+    "id": "MU"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45f4",
+    "name": "Mexico",
+    "calling_code": "52",
+    "id": "MX"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45f5",
+    "name": "Monaco",
+    "calling_code": "377",
+    "id": "MC"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45f6",
+    "name": "Mongolia",
+    "calling_code": "976",
+    "id": "MN"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45f7",
+    "name": "Moldova, Republic of",
+    "calling_code": "373",
+    "id": "MD"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45f8",
+    "name": "Montenegro",
+    "calling_code": "382",
+    "id": "ME"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45f9",
+    "name": "Montserrat",
+    "calling_code": "1",
+    "id": "MS"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45fa",
+    "name": "Morocco",
+    "calling_code": "212",
+    "id": "MA"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45fb",
+    "name": "Mozambique",
+    "calling_code": "258",
+    "id": "MZ"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45fc",
+    "name": "Oman",
+    "calling_code": "968",
+    "id": "OM"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45fd",
+    "name": "Namibia",
+    "calling_code": "264",
+    "id": "NA"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45fe",
+    "name": "Nauru",
+    "calling_code": "674",
+    "id": "NR"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b45ff",
+    "name": "Nepal",
+    "calling_code": "977",
+    "id": "NP"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4600",
+    "name": "Netherlands",
+    "calling_code": "31",
+    "id": "NL"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4601",
+    "name": "Curaçao",
+    "calling_code": "599",
+    "id": "CW"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4602",
+    "name": "Aruba",
+    "calling_code": "297",
+    "id": "AW"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4603",
+    "name": "Sint Maarten (Dutch part)",
+    "calling_code": "721",
+    "id": "SX"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4604",
+    "name": "Bonaire, Sint Eustatius and Saba",
+    "calling_code": "599",
+    "id": "BQ"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4605",
+    "name": "New Caledonia",
+    "calling_code": "687",
+    "id": "NC"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4606",
+    "name": "Vanuatu",
+    "calling_code": "678",
+    "id": "VU"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4607",
+    "name": "New Zealand",
+    "calling_code": "64",
+    "id": "NZ"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4608",
+    "name": "Nicaragua",
+    "calling_code": "505",
+    "id": "NI"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4609",
+    "name": "Niger",
+    "calling_code": "227",
+    "id": "NE"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b460a",
+    "name": "Nigeria",
+    "calling_code": "234",
+    "id": "NG"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b460b",
+    "name": "Niue",
+    "calling_code": "683",
+    "id": "NU"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b460c",
+    "name": "Norfolk Island",
+    "calling_code": "672",
+    "id": "NF"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b460d",
+    "name": "Norway",
+    "calling_code": "47",
+    "id": "NO"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b460e",
+    "name": "Northern Mariana Islands",
+    "calling_code": "1",
+    "id": "MP"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b460f",
+    "name": "United States Minor Outlying Islands",
+    "calling_code": "1",
+    "id": "UM"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4610",
+    "name": "Micronesia, Federated States of",
+    "calling_code": "691",
+    "id": "FM"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4611",
+    "name": "Marshall Islands",
+    "calling_code": "692",
+    "id": "MH"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4612",
+    "name": "Palau",
+    "calling_code": "680",
+    "id": "PW"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4613",
+    "name": "Pakistan",
+    "calling_code": "92",
+    "id": "PK"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4614",
+    "name": "Panama",
+    "calling_code": "507",
+    "id": "PA"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4615",
+    "name": "Papua New Guinea",
+    "calling_code": "675",
+    "id": "PG"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4616",
+    "name": "Paraguay",
+    "calling_code": "595",
+    "id": "PY"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4617",
+    "name": "Peru",
+    "calling_code": "51",
+    "id": "PE"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4618",
+    "name": "Philippines",
+    "calling_code": "63",
+    "id": "PH"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4619",
+    "name": "Pitcairn",
+    "calling_code": "649",
+    "id": "PN"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b461a",
+    "name": "Poland",
+    "calling_code": "48",
+    "id": "PL"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b461b",
+    "name": "Portugal",
+    "calling_code": "351",
+    "id": "PT"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b461c",
+    "name": "Guinea-Bissau",
+    "calling_code": "245",
+    "id": "GW"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b461d",
+    "name": "Timor-Leste",
+    "calling_code": "670",
+    "id": "TL"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b461e",
+    "name": "Puerto Rico",
+    "calling_code": "1",
+    "id": "PR"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b461f",
+    "name": "Qatar",
+    "calling_code": "974",
+    "id": "QA"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4620",
+    "name": "Réunion",
+    "calling_code": "262",
+    "id": "RE"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4621",
+    "name": "Romania",
+    "calling_code": "40",
+    "id": "RO"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4622",
+    "name": "Russian Federation",
+    "calling_code": "7",
+    "id": "RU"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4623",
+    "name": "Rwanda",
+    "calling_code": "250",
+    "id": "RW"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4624",
+    "name": "Saint Barthélemy",
+    "calling_code": "590",
+    "id": "SQ"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4625",
+    "name": "Saint Helena, Ascension and Tristan da Cunha",
+    "calling_code": "290",
+    "id": "SH"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4626",
+    "name": "Saint Kitts and Nevis",
+    "calling_code": "1",
+    "id": "KN"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4627",
+    "name": "Anguilla",
+    "calling_code": "1",
+    "id": "AI"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4628",
+    "name": "Saint Lucia",
+    "calling_code": "1",
+    "id": "LC"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4629",
+    "name": "Saint Martin (French part)",
+    "calling_code": "590",
+    "id": "SF"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b462a",
+    "name": "Saint Pierre and Miquelon",
+    "calling_code": "508",
+    "id": "PM"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b462b",
+    "name": "Saint Vincent and the Grenadines",
+    "calling_code": "1",
+    "id": "VC"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b462c",
+    "name": "San Marino",
+    "calling_code": "378",
+    "id": "SM"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b462d",
+    "name": "Sao Tome and Principe",
+    "calling_code": "239",
+    "id": "ST"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b462e",
+    "name": "Saudi Arabia",
+    "calling_code": "966",
+    "id": "SA"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b462f",
+    "name": "Senegal",
+    "calling_code": "221",
+    "id": "SN"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4630",
+    "name": "Serbia",
+    "calling_code": "381",
+    "id": "SP"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4631",
+    "name": "Seychelles",
+    "calling_code": "248",
+    "id": "SC"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4632",
+    "name": "Sierra Leone",
+    "calling_code": "232",
+    "id": "SL"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4633",
+    "name": "Singapore",
+    "calling_code": "65",
+    "id": "SG"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4634",
+    "name": "Slovakia",
+    "calling_code": "421",
+    "id": "SK"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4635",
+    "name": "Viet Nam",
+    "calling_code": "84",
+    "id": "VN"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4636",
+    "name": "Slovenia",
+    "calling_code": "386",
+    "id": "SI"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4637",
+    "name": "Somalia",
+    "calling_code": "252",
+    "id": "SO"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4638",
+    "name": "South Africa",
+    "calling_code": "27",
+    "id": "ZA"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4639",
+    "name": "Zimbabwe",
+    "calling_code": "263",
+    "id": "ZW"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b463a",
+    "name": "Spain",
+    "calling_code": "34",
+    "id": "ES"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b463b",
+    "name": "South Sudan",
+    "calling_code": "211",
+    "id": "SS"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b463c",
+    "name": "Sudan",
+    "calling_code": "249",
+    "id": "SU"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b463d",
+    "name": "Western Sahara",
+    "calling_code": "212",
+    "id": "EH"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b463e",
+    "name": "Suriname",
+    "calling_code": "597",
+    "id": "SR"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b463f",
+    "name": "Svalbard and Jan Mayen",
+    "calling_code": "47",
+    "id": "SJ"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4640",
+    "name": "Swaziland",
+    "calling_code": "268",
+    "id": "SZ"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4641",
+    "name": "Sweden",
+    "calling_code": "46",
+    "id": "SE"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4642",
+    "name": "Switzerland",
+    "calling_code": "41",
+    "id": "CH"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4643",
+    "name": "Syrian Arab Republic",
+    "calling_code": "963",
+    "id": "SY"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4644",
+    "name": "Tajikistan",
+    "calling_code": "992",
+    "id": "TJ"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4645",
+    "name": "Thailand",
+    "calling_code": "66",
+    "id": "TH"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4646",
+    "name": "Togo",
+    "calling_code": "228",
+    "id": "TG"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4647",
+    "name": "Tokelau",
+    "calling_code": "690",
+    "id": "TK"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4648",
+    "name": "Tonga",
+    "calling_code": "676",
+    "id": "TO"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4649",
+    "name": "Trinidad and Tobago",
+    "calling_code": "1",
+    "id": "TT"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b464a",
+    "name": "United Arab Emirates",
+    "calling_code": "971",
+    "id": "AE"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b464b",
+    "name": "Tunisia",
+    "calling_code": "216",
+    "id": "TN"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b464c",
+    "name": "Turkey",
+    "calling_code": "90",
+    "id": "TR"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b464d",
+    "name": "Turkmenistan",
+    "calling_code": "993",
+    "id": "TM"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b464e",
+    "name": "Turks and Caicos Islands",
+    "calling_code": "1",
+    "id": "TC"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b464f",
+    "name": "Tuvalu",
+    "calling_code": "688",
+    "id": "TV"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4650",
+    "name": "Uganda",
+    "calling_code": "256",
+    "id": "UG"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4651",
+    "name": "Ukraine",
+    "calling_code": "380",
+    "id": "UA"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4652",
+    "name": "Macedonia, the former Yugoslav Republic of",
+    "calling_code": "389",
+    "id": "MK"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4653",
+    "name": "Egypt",
+    "calling_code": "20",
+    "id": "EG"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4654",
+    "name": "United Kingdom",
+    "calling_code": "44",
+    "id": "GB"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4655",
+    "name": "Guernsey",
+    "calling_code": "44",
+    "id": "GG"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4656",
+    "name": "Jersey",
+    "calling_code": "44",
+    "id": "JE"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4657",
+    "name": "Isle of Man",
+    "calling_code": "44",
+    "id": "IM"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4658",
+    "name": "Tanzania, United Republic of",
+    "calling_code": "255",
+    "id": "TZ"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4659",
+    "name": "United States",
+    "calling_code": "1",
+    "id": "US"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b465a",
+    "name": "Virgin Islands, U.S.",
+    "calling_code": "1",
+    "id": "VI"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b465b",
+    "name": "Burkina Faso",
+    "calling_code": "226",
+    "id": "BF"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b465c",
+    "name": "Uruguay",
+    "calling_code": "598",
+    "id": "UY"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b465d",
+    "name": "Uzbekistan",
+    "calling_code": "998",
+    "id": "UZ"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b465e",
+    "name": "Venezuela, Bolivarian Republic of",
+    "calling_code": "58",
+    "id": "VE"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b465f",
+    "name": "Wallis and Futuna",
+    "calling_code": "681",
+    "id": "WF"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4660",
+    "name": "Samoa",
+    "calling_code": "685",
+    "id": "WS"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4661",
+    "name": "Yemen",
+    "calling_code": "967",
+    "id": "YE"
+  },
+  {
+    "ori_id": "558395c0938e8ef63d8b4662",
+    "name": "Zambia",
+    "calling_code": "260",
+    "id": "ZM"
+  }
+]

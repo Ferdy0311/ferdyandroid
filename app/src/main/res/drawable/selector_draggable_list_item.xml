@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.bahaso">
+    <!--  Checked Activated-->
+    <item app:state_answered="true" app:state_correct="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="4dp" />
+            <solid android:color="@color/bahaso_blue" />
+        </shape>
+    </item>
+    <!--  Checked not Activated-->
+    <item app:state_answered="true" app:state_correct="false">
+        <shape android:shape="rectangle">
+            <corners android:radius="4dp" />
+            <solid android:color="@color/bahaso_red" />
+        </shape>
+    </item>
+    <!--  not selected-->
+    <item app:state_answered="false">
+        <shape android:shape="rectangle">
+            <corners android:radius="4dp" />
+            <solid android:color="@color/bahaso_lighter_blue" />
+            <stroke android:color="@color/bahaso_light_blue" android:width="1dp"/>
+        </shape>
+    </item>
+</selector>

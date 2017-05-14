@@ -1,0 +1,13 @@
+<TextView
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:background="@drawable/selector_rect_selectable_lightblue2bluered"
+    android:textColor="@color/selector_text_black2white"
+    android:padding="6dp"
+    android:textSize="14sp"
+    android:layout_margin="4dp"
+    android:clickable="true"
+    android:focusable="true"
+    xmlns:android="http://schemas.android.com/apk/res/android" />
+
+    <!--android:textColor="@color/bahaso_text_primary"-->

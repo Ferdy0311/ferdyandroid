@@ -1,0 +1,6 @@
+<View
+    android:id="@+id/lineBreak"
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="@color/bahaso_light_dark_gray"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

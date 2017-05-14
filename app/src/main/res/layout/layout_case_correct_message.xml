@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:gravity="center_vertical"
+    android:background="@color/bahaso_transparent_bahaso_blue"
+    android:layout_height="match_parent"
+    android:paddingTop="7dp"
+    android:paddingBottom="7dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    >
+
+    <android.support.v7.widget.AppCompatImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/circle_white"
+            android:padding="5dp"
+            app:srcCompat="@drawable/ic_benar_icon"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp"
+            android:paddingLeft="20dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="@string/case_correct"
+            android:textColor="@color/bahaso_white_gray"
+            />
+
+</LinearLayout>

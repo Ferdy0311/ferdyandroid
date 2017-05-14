@@ -1,0 +1,14 @@
+<EditText
+    android:id="@+id/et_answer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:inputType="textNoSuggestions"
+    android:textColor="@color/selector_text_black2white"
+    android:background="@drawable/selector_edittext_rectangle_activated"
+    android:padding="6dp"
+    android:textSize="14sp"
+    android:imeOptions="actionDone"
+    android:maxLines="2"
+    xmlns:android="http://schemas.android.com/apk/res/android" />
+

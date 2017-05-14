@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:state_activated="true">
+        <shape >
+            <solid android:color="@android:color/transparent" />
+            <stroke
+                android:width="2dp"
+                android:color="@color/bahaso_blue" />
+        </shape>
+        <!--<shape>-->
+            <!--<solid android:color="@color/bahaso_blue"/>-->
+        <!--</shape>-->
+    </item>
+    <item android:state_selected="true" android:state_activated="false">
+        <!--<shape>-->
+            <!--<solid android:color="@color/bahaso_red"/>-->
+        <!--</shape>-->
+        <shape>
+            <solid android:color="@android:color/transparent" />
+            <stroke android:width="2dp" android:color="@color/bahaso_red" />
+        </shape>
+    </item>
+    <item android:state_selected="false">
+        <inset xmlns:android="http://schemas.android.com/apk/res/android"
+            android:insetLeft="2dp"
+            android:insetRight="2dp"
+            android:insetTop="2dp"
+            android:insetBottom="2dp">
+            <shape>
+                <solid android:color="@android:color/transparent" />
+                <stroke android:width="1dp" android:color="@color/bahaso_blue" />
+            </shape>
+        </inset>
+    </item>
+</selector>

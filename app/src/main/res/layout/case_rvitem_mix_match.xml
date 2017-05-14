@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent"
+    android:layout_height="117dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginBottom="8dp">
+    <com.bahaso.widget.DroppedStateFrame
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="128dp"
+        android:layout_height="117dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/outer_drop">
+
+        <com.bahaso.widget.DroppedStateFrame
+            android:id="@+id/drop"
+            android:layout_width="128dp"
+            android:layout_height="36dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@drawable/selector_drop_rectangle">
+        </com.bahaso.widget.DroppedStateFrame>
+
+        <com.bahaso.widget.DroppedStateFrame
+            android:id="@+id/dotted_drop"
+            android:layout_width="128dp"
+            android:layout_height="36dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@drawable/selector_drop_dotted_rectangle">
+        </com.bahaso.widget.DroppedStateFrame>
+
+        <ImageView
+            android:layout_width="128dp"
+            android:layout_height="15dp"
+            android:background="@drawable/puzzle_static_n"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="73dp"/>
+
+        <!--<LinearLayout-->
+        <!--android:id="@+id/linearLayout"-->
+        <!--android:layout_width="@dimen/bahaso_case_imagesrc_medium_width"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_gravity="center">-->
+
+        <FrameLayout
+            android:id="@+id/frame_item_container"
+            android:layout_width="128dp"
+            android:layout_height="78dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@android:color/white">
+
+            <!--<ImageView-->
+                <!--android:id="@+id/iv_case_image"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center"/>-->
+
+            <!--<include layout="@layout/case_single_speaker_medium"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"/>-->
+
+            <!--<include layout="@layout/case_single_text_center_vertical"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"/>-->
+
+            <!--<com.bahaso.widget.MuseoTextView-->
+                <!--android:id="@+id/tv_case_question"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:gravity="center"/>-->
+
+            <ImageView
+                android:id="@+id/iv_rect_bg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/selector_recttrans_selectablestroke_rounded4"/>
+        </FrameLayout>
+
+        <!--</LinearLayout>-->
+
+    </com.bahaso.widget.DroppedStateFrame>
+</FrameLayout>

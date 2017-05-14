@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bahaso_white_gray"
+    android:orientation="vertical"
+    android:animateLayoutChanges="false" >
+
+    <!--<include layout="@layout/toolbar_top_nogoldbar" />-->
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:background="@color/bahaso_blue"
+        app:titleTextColor="#FFFFFF"
+        app:titleTextAppearance="@style/Toolbar.TitleText"
+        app:contentInsetStartWithNavigation="20dp"
+        app:contentInsetLeft="20dp"
+        app:contentInsetStart="20dp"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txt_header_transfer1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:gravity="center"
+                    android:text="@string/txt_payment_code"
+                    android:textColor="@color/bahaso_black" />
+
+                <TextView
+                    android:id="@+id/tv_v_account"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:layout_marginTop="12dp"
+                    android:gravity="center"
+                    android:textColor="@color/bahaso_dark_blue"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txt_header_transfer2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/txt_make_sure_nominal_payment"
+                    android:textColor="@color/bahaso_black" />
+
+                <TextView
+                    android:id="@+id/tv_pricePay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:layout_marginTop="12dp"
+                    android:gravity="center"
+                    android:textColor="@color/bahaso_dark_blue"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_transfer_before"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bank_transfer_info4"
+                    android:textColor="@color/bahaso_black" />
+
+                <TextView
+                    android:id="@+id/tv_datetime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:layout_marginTop="12dp"
+                    android:gravity="center"
+                    android:textColor="@color/bahaso_dark_blue"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <RelativeLayout
+                    android:id="@+id/expandHighlight"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:orientation="vertical"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="10dp">
+
+                    <RelativeLayout
+                        android:id="@+id/expandProcedurePayment"
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerVertical="true"
+                        android:animateLayoutChanges="true"
+                        android:background="@drawable/border"
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:onClick="onClick_payATM">
+
+                        <ImageView
+                            android:id="@+id/iv_flag"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <android.support.v7.widget.AppCompatImageView
+                            android:id="@+id/down_arrow_cc"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            app:srcCompat="@drawable/svg_dropdown_arrow" />
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layout_content"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/expandProcedurePayment"
+                        android:background="@drawable/content_border"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/deskripsi_content"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/bahaso_black"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_khusus_bca"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="-8dp"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    android:visibility="gone">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginBottom="8dp"
+                        android:background="@color/bahaso_black_gray" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_rincian_pembayaran"
+                        android:textColor="@color/bahaso_black"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:text="@string/txt_total_payment_gold"
+                            android:textColor="@color/bahaso_black" />
+
+                        <TextView
+                            android:id="@+id/total_pembayaran_gold"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:gravity="end"
+                            android:textColor="@color/bahaso_black" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:text="@string/txt_biaya_kenyamanan"
+                            android:textColor="@color/bahaso_black" />
+
+                        <TextView
+                            android:id="@+id/biaya_kenyamanan"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:gravity="end"
+                            android:textColor="@color/bahaso_black" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@color/bahaso_black_gray" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:text="@string/txt_total_dan_kode_unik"
+                            android:textColor="@color/bahaso_black" />
+
+                        <TextView
+                            android:id="@+id/total_dan_kode_unik"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:gravity="end"
+                            android:textColor="@color/bahaso_black" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/bahaso_black_gray" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="65dp"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_payment_procedures"
+                        android:textColor="@color/bahaso_black"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/txt_gold_auto_increase"
+                        android:textColor="@color/bahaso_black" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:background="@color/bahaso_white_gray"
+            android:orientation="vertical"
+            android:padding="6dp">
+
+            <LinearLayout
+                android:id="@+id/layout_btn_pay_atm"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/background_btn_login"
+                android:clickable="true"
+                android:gravity="center"
+                android:onClick="onClick_payATM"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txt_btn_transfer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_back_to_home"
+                    android:textColor="@drawable/text_color_gold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <include layout="@layout/toolbar_top_nogoldbar" />
+
+</LinearLayout>

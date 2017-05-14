@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.bahaso">
+
+    <!-- selected -->
+    <item app:state_dropped="false"
+        android:drawable="@drawable/shadow_vertical">
+    </item>
+
+    <item app:state_dropped="true">
+        <layer-list >
+            <item android:drawable="@drawable/shadow_vertical"/>
+            <item >
+                <shape >
+                    <solid android:color="@color/bahaso_transparent_gray" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+</selector>

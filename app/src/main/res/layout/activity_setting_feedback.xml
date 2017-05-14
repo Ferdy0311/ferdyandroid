@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bahaso_white_gray"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <include layout="@layout/toolbar_top_nogoldbar" />
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:orientation="vertical"
+            android:padding="2dp"
+            android:clipToPadding="false"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="12dp"
+                android:text="@string/label_enter_feedback"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/bahaso_black_gray"
+                android:textSize="14sp"/>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/til_feedback_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="2dp"
+                android:textColorHint="#999999">
+
+                <EditText
+                    android:id="@+id/et_feedback_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint_feedback_title"
+                    android:textSize="16sp"
+                    android:inputType="text|textNoSuggestions"
+                    android:maxLines="1"
+                    android:textColor="@color/bahaso_text_primary"
+                    android:theme="@style/EditTextStyle"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/til_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="2dp"
+                android:textColorHint="#999999">
+
+                <EditText
+                    android:id="@+id/et_location"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint_location"
+                    android:textSize="16sp"
+                    android:inputType="text|textNoSuggestions"
+                    android:maxLines="1"
+                    android:textColor="@color/bahaso_text_primary"
+                    android:theme="@style/EditTextStyle"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/til_cellphone_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="2dp"
+                android:textColorHint="#999999">
+
+                <EditText
+                    android:id="@+id/et_cellphone_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint_cellphone_number"
+                    android:textSize="16sp"
+                    android:inputType="text|phone"
+                    android:maxLines="1"
+                    android:textColor="@color/bahaso_text_primary"
+                    android:theme="@style/EditTextStyle"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/til_feedback_message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="2dp"
+                android:textColorHint="#999999">
+
+                <EditText
+                    android:id="@+id/et_feedback_message"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint_feedback_message"
+                    android:textSize="16sp"
+                    android:inputType="text|textNoSuggestions"
+                    android:maxLines="100"
+                    android:minLines="3"
+                    android:textColor="@color/bahaso_text_primary"
+                    android:gravity="start|top"
+                    android:theme="@style/EditTextStyle"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <LinearLayout
+                android:id="@+id/vg_submit_feedback"
+                android:layout_width="195dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="2dp"
+                android:paddingRight="2dp"
+                android:gravity="center"
+                android:clickable="true"
+                android:onClick="onClick_feedback"
+                android:orientation="vertical"
+                android:background="@drawable/background_btn_login" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btn_txt_send"
+                    android:textColor="@drawable/text_color_gold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.bahaso">
+    <!-- selected -->
+    <item app:state_dropped="false">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+            <solid android:color="@android:color/transparent" />
+            <corners android:radius="2dp" />
+        </shape>
+    </item>
+
+    <item app:state_dropped="true">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+            <solid android:color="@android:color/transparent" />
+            <corners android:radius="2dp" />
+            <stroke
+                android:color="@android:color/black"
+                android:dashWidth="4dp"
+                android:dashGap="4dp"
+                android:width="1dp"/>
+        </shape>
+    </item>
+
+</selector>

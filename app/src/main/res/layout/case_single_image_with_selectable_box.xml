@@ -1,0 +1,22 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="132dp"
+    android:layout_height="82dp">
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="128dp"
+        android:layout_height="78dp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center"/>
+    <!--app:riv_corner_radius="@dimen/corner_6"-->
+    <!--app:riv_oval="false"-->
+    <!--android:src="@drawable/test_gambar"-->
+
+    <ImageView
+        android:id="@+id/iv_rect_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/selector_recttrans_selectablestroke_nocorner"/>
+
+</FrameLayout>

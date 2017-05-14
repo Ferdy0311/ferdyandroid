@@ -1,0 +1,49 @@
+<com.bahaso.widget.SpeechRecognizerFrameLayout
+    android:layout_width="95dp"
+    android:layout_height="95dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center_horizontal"
+    android:id="@+id/vg_speech_recognizer">
+
+    <com.bahaso.widget.circleprogress.CircleProgressViewNoText
+        android:id="@+id/pw_progress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cpv_maxValue="100"
+        app:cpv_barWidth="10dp"
+        app:cpv_rimWidth="10dp"
+        app:cpv_contourSize="0dp"
+        app:cpv_seekMode="false"
+        android:visibility="invisible"
+        />
+
+    <!--app:cpv_barColor="@color/bahaso_light_dark_gray"-->
+    <!--app:cpv_rimColor="@android:color/transparent"-->
+
+    <!--app:cpv_barColor="@color/bahaso_light_blue"-->
+    <!--app:cpv_rimColor="@color/bahaso_light_dark_gray"-->
+
+    <include layout="@layout/case_single_microphone_large"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/tv_chance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:textColor="@color/bahaso_white_gray"
+        android:textStyle="bold" />
+
+    <com.bahaso.widget.RmsView
+        android:id="@+id/vw_rmsbar"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center" />
+
+</com.bahaso.widget.SpeechRecognizerFrameLayout>

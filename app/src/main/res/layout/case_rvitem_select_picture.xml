@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_gravity="top|center_horizontal">
+
+        <include layout="@layout/case_single_image_with_selectable_box" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:textSize="14sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"/>
+
+        <View
+            android:id="@+id/lineBreak"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/bahaso_blue" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:textSize="14sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"/>
+        <!--android:textColor="@color/bahaso_text_primary"-->
+
+    </LinearLayout>
+</FrameLayout>
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+    <!--<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--android:layout_gravity="center_vertical"-->
+    <!--android:layout_marginBottom="@dimen/spacing_8">-->
+
+    <!--<FrameLayout-->
+    <!--android:id="@+id/wrapper"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:padding="@dimen/spacing_6"-->
+    <!--android:background="@drawable/selector_gray_background_rectangle"-->
+    <!--android:layout_gravity="top|center_horizontal">-->
+    <!--<LinearLayout-->
+    <!--android:id="@+id/linearLayout"-->
+    <!--android:layout_width="@dimen/bahaso_case_imagesrc_medium_width_pluspad"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="@drawable/selector_rect_selectable_rounded4"-->
+    <!--android:orientation="vertical"-->
+    <!--android:layout_gravity="top|center_horizontal"-->
+    <!--android:padding="@dimen/spacing_2"-->
+    <!--android:clickable="true"-->
+    <!--android:focusable="true">-->
+
+    <!--&lt;!&ndash;<FrameLayout&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="@dimen/bahaso_case_imagesrc_medium_height">&ndash;&gt;-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imageview"-->
+    <!--android:layout_width="@dimen/bahaso_case_imagesrc_medium_width"-->
+    <!--android:layout_height="@dimen/bahaso_case_imagesrc_medium_height" />-->
+
+    <!--&lt;!&ndash; TBD android:scaleType="centerCrop" &ndash;&gt;-->
+
+    <!--&lt;!&ndash;app:riv_corner_radius="@dimen/corner_6"&ndash;&gt;-->
+    <!--&lt;!&ndash;app:riv_oval="false"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:src="@drawable/test_gambar"&ndash;&gt;-->
+
+    <!--&lt;!&ndash;<ImageView&ndash;&gt;-->
+    <!--&lt;!&ndash;android:id="@+id/iv_rect_bg"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="match_parent"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:background="@drawable/selector_recttrans_selectablestroke_rounded4"/>&ndash;&gt;-->
+    <!--&lt;!&ndash;</FrameLayout>&ndash;&gt;-->
+
+
+    <!--<com.bahaso.widget.MuseoTextView-->
+    <!--android:id="@+id/text"-->
+    <!--android:textSize="@dimen/font_size"-->
+    <!--android:textColor="@color/selector_text_black2white"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:gravity="center"-->
+    <!--android:minLines="2"-->
+    <!--android:layout_gravity="center"/>-->
+
+    <!--&lt;!&ndash;<View&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="1dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:background="@color/bahaso_blue" />&ndash;&gt;-->
+    <!--&lt;!&ndash;android:textColor="@color/bahaso_text_primary"&ndash;&gt;-->
+
+    <!--</LinearLayout>-->
+    <!--</FrameLayout>-->
+    <!--</FrameLayout>-->
+
+
+
+
+
+
+
+
+
+
+
+
+

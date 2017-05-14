@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bahaso_white_gray"
+
+    android:orientation="vertical"
+    android:theme="@style/TestingTheme"
+
+    tools:context="com.bahaso.alltypecasetesting.AllTypeCaseTesting">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:background="@color/bahaso_blue"
+        app:titleTextColor="#FFFFFF"
+        app:titleTextAppearance="@style/Toolbar.TitleText"
+        app:contentInsetStartWithNavigation="0dp"
+        app:contentInsetLeft="0dp" />
+
+    <LinearLayout
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="20dp"
+        android:textSize="15dp"
+        android:textColor="@color/bahaso_black_gray"
+        android:text="Please Choose Which Type Case You Want To Test" />
+
+    <RadioGroup
+        android:id="@+id/groupCaseTypeRadioButton"
+        android:layout_width="match_parent"
+        android:layout_height="115dp" >
+
+        <RadioButton
+            android:id="@+id/radioButtonIntroAndGeneralCase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Intro And General Case"
+            android:textColor="@color/bahaso_black_gray"
+            android:buttonTint="@color/bahaso_blue"
+            />
+
+        <RadioButton
+            android:id="@+id/radioButtonWritingCase"
+            android:layout_width="wrap_content"
+            android:buttonTint="@color/bahaso_blue"
+
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Writing Case"
+            android:textColor="@color/bahaso_black_gray" />
+    </RadioGroup>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/buttonLoadTestingCase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:background="@drawable/background_lesson_placement_button"
+        android:textColor="@color/bahaso_black_gray"
+        android:text="Load Case" />
+
+    </LinearLayout>
+</LinearLayout>

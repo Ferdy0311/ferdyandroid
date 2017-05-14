@@ -1,0 +1,24 @@
+<merge>
+    <com.bahaso.widget.DroppedStateFrame
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="138dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/outer_drop">
+
+        <com.bahaso.widget.DroppedStateFrame
+            android:id="@+id/drop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/selector_drop_rectangle">
+        </com.bahaso.widget.DroppedStateFrame>
+
+        <com.bahaso.widget.DroppedStateFrame
+            android:id="@+id/dotted_drop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/selector_drop_dotted_rectangle">
+        </com.bahaso.widget.DroppedStateFrame>
+
+    </com.bahaso.widget.DroppedStateFrame>
+</merge>

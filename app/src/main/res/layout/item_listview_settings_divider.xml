@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="?attr/listPreferredItemPaddingLeft"
+    android:paddingStart="?attr/listPreferredItemPaddingLeft"
+    android:paddingRight="?attr/listPreferredItemPaddingRight"
+    android:paddingEnd="?attr/listPreferredItemPaddingRight"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp">
+
+    <include layout="@layout/single_linebreak_light_gray" />
+
+</FrameLayout>

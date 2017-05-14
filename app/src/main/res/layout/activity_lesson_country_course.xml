@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Main Content -->
+<LinearLayout  android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bahaso_white_gray"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:background="@color/bahaso_blue"
+        app:titleTextColor="#FFFFFF"
+        app:titleTextAppearance="@style/Toolbar.TitleText"
+        app:contentInsetStartWithNavigation="0dp"
+        app:contentInsetLeft="0dp" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/listViewLesson" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/btnPlacement"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_lesson_placement_button"
+            android:text="@string/placement_test_button"
+            android:textColor="@color/bahaso_black_gray" />
+    </RelativeLayout>
+
+</LinearLayout>
+

@@ -1,0 +1,28 @@
+
+<!--android:clickable="true"-->
+    <!--android:focusable="true"-->
+<com.bahaso.widget.AnswerStateLinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/selector_draggable_list_item"
+    android:padding="4dp"
+    android:layout_margin="4dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- must be first child -->
+    <com.bahaso.widget.AnswerStateTextView
+        android:paddingLeft="4dp"
+        android:id="@+id/tv_draggable_item"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@color/selector_state_textcolor_case"/>
+    <!--android:textColor="@color/bahaso_text_primary"-->
+    <ImageView
+        android:id="@+id/draggable"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:src="@drawable/dragable"
+        android:layout_gravity="center_vertical"/>
+</com.bahaso.widget.AnswerStateLinearLayout>

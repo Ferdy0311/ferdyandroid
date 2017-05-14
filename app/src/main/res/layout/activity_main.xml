@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.bahaso.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?attr/actionBarSize"
+            android:background="@color/bahaso_blue"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:titleTextColor="#FFFFFF"
+            app:titleTextAppearance="@style/Toolbar.TitleText"
+            app:contentInsetStartWithNavigation="0dp"
+            app:contentInsetLeft="0dp"
+            app:contentInsetStart="0dp" >
+
+            <RelativeLayout
+                android:id="@+id/header_main"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:id="@+id/logo_bahaso_main"
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    app:srcCompat="@drawable/svg_logo_bahaso" />
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:id="@+id/icon_setting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    app:srcCompat="@drawable/svg_settings"
+                    android:layout_alignParentTop="false"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginEnd="0dp"
+                    android:layout_toEndOf="@+id/logo_bahaso_main"
+                    android:layout_toRightOf="@+id/logo_bahaso_main"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginStart="70dp"
+                    android:clickable="true"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/menu_overflow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/logo_bahaso_main"
+                    android:layout_toRightOf="@+id/logo_bahaso_main"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginStart="70dp"
+                    android:clickable="true"
+                    android:onClick="onClick_main"
+                    android:src="@drawable/ic_more_vert_white_24dp"/>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.Toolbar>
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tablayout"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:background="@color/bahaso_blue"
+            app:tabMode="fixed"
+            app:tabGravity="fill"
+            app:tabIndicatorHeight="4dp"
+            app:tabIndicatorColor="@android:color/white"/>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pagerlayout"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/tablayout"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+</android.support.design.widget.CoordinatorLayout>
+

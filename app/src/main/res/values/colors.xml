@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="bahaso_lighter_brown">#FFFAF2</color>
+    <!--<color name="bahaso_lighter_brown">#FAFAFA</color>-->
+    <color name="bahaso_brown">#9F6400</color>
+    <!--<color name="bahaso_brown">#8E9396</color>-->
+    <color name="bahaso_darker_brown">#453500</color>  <!-- 684E32 -->
+    <!--<color name="bahaso_darker_brown">#454545</color>  &lt;!&ndash; 684E32 &ndash;&gt;-->
+
+    <color name="bahaso_transparent_light_white">#11FAFAFA</color>
+    <color name="bahaso_transparent_white">#AAFAFAFA</color>
+    <color name="bahaso_white_gray">#FAFAFA</color>
+
+    <color name="bahaso_black">#111111</color>
+    <color name="bahaso_black_gray">#454545</color>
+    <color name="bahaso_text_primary">@color/bahaso_black_gray</color>
+
+    <color name="bahaso_yellow">#FFFBBC</color>
+    <color name="bahaso_transparent_dark_yellow">#DDFFFBBC</color>
+    <color name="bahaso_yellow_2">#FFE760</color>
+
+    <color name="bahaso_transparent_blue">#9042ABE0</color> <!-- toast_background -->
+    <color name="bahaso_transparent_darker_blue">#88228BC0</color>
+
+    <color name="bahaso_transparent_black">#CC000000</color>
+
+    <color name="bahaso_lighter_blue">#C9EFFF</color>
+    <color name="bahaso_light_blue">#81D4FA</color> <!-- 78C6EB --> <!-- #6FBEE5 -->
+    <!--<color name="bahaso_blue">#42ABE0</color>-->
+    <color name="bahaso_blue">#23ABFA</color>
+
+    <color name="bahaso_transparent_bahaso_blue">#ef23abfa</color>
+    <color name="bahaso_transparent_bahaso_blue_case_box">#9a23abfa</color>
+
+    <!--<color name="bahaso_dark_light_blue">#329BD0</color>-->
+    <color name="bahaso_dark_blue">#198ED1</color>  <!--2396FB --><!-- #228BC0 --> <!--#198ED1-->
+    <color name="fb_dark_blue">#3b5998</color>
+    <color name="bahaso_darker_blue">#0553F0</color> <!-- #0553F0 --> <!--127BB0-->
+    <color name="bahaso_darkest_blue">#0445C8</color> <!-- #1D4B62 --> <!-- used for colored status bar -->
+
+    <color name="bahaso_blue_lesson">#98D7DD</color>
+    <color name="bahaso_orange_lesson">#EEDD89</color>
+
+    <color name="bahaso_light_blue_green">#7BD7DD</color>
+    <color name="bahaso_blue_green">#A9DAEB</color>
+
+    <color name="bahaso_orange">#F9A335</color>
+    <color name="bahaso_dark_orange">#E99325</color>
+    <color name="bahaso_darkest_orange">#E65100</color>
+    <color name="bahaso_gold">#F2B334</color>
+    <!--FEC448-->
+
+    <color name="bahaso_red">#DC5555</color>
+    <color name="bahaso_darker_red">#BC3535</color>
+    <color name="bahaso__transparent_red">#ccff4848</color>
+    <color name="bahaso__transparent_red_case_box">#9aff4848</color>
+
+    <color name="bahaso_red_false_answer">#FF4848</color>
+
+
+    <color name="bahaso_red_false_answer_edit_text">#FF6D6D</color>
+    <color name="google_red">#DC4A38</color>
+
+
+    <color name="bahaso_light_blue_button_drag_choices_unselected">#81D4FA</color>
+    <color name="bahaso_light_blue_button_drag_choices_selected">#eaeaea</color>
+
+    <color name="bahaso_gray_ea">#eaeaea</color>
+
+
+    <color name="transparent">#00000000</color>
+    <color name="bahaso_transparent_lighter_gray">#0f000000</color>
+    <color name="bahaso_transparent_light_gray">#18000000</color>
+    <color name="bahaso_transparent_gray">#66CBC6C6</color> <!-- layer list shadow button group -->
+    <color name="bahaso_transparent_dark_gray">#40000000</color>
+
+    <color name="bahaso_light_gray">#f5f5f5</color>
+    <color name="bahaso_gray">#E9E9E9</color>
+    <color name="bahaso_light_dark_gray">#DDDDDD</color> <!-- disabled purpose -->
+    <color name="bahaso_dark_gray">#CCCCCC</color>
+    <color name="bahaso_darker_gray">#AEB3B6</color>
+    <color name="bahaso_darkest_gray">#8E9396</color>
+
+    <color name="text_dark">#616161</color>
+    <color name="image_view_border">#eaeaea</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="list_divider">#d9d9d9</color>
+    <color name="list_row_start_color">#ffffff</color>
+    <color name="list_row_end_color">#ffffff</color>
+    <color name="list_row_hover_start_color">#ebeef0</color>
+    <color name="list_row_hover_end_color">#ebeef0</color>
+</resources>

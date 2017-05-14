@@ -1,0 +1,12 @@
+<com.bahaso.util.StateImageView
+    android:id="@+id/speaker"
+    android:layout_width="75dp"
+    android:layout_height="75dp"
+    android:layout_gravity="center_horizontal"
+    android:src="@drawable/listenbig"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:scaleType="centerCrop"
+    android:clickable="true"
+    android:focusable="true"
+    app:siv_disabled_mode="multiply"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

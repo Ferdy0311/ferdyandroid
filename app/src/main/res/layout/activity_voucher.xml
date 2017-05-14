@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bahaso_white_gray"
+    tools:context="com.bahaso.voucher.VoucherActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="18dp"
+            app:srcCompat="@drawable/voucher"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="14dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="@color/bahaso_black"
+            android:text="@string/txt_punya_kode_voucher"/>
+
+        <EditText
+            android:id="@+id/et_voucher"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/selector_edittext_rectangle_rounded"
+            android:hint="@string/enter_voucher_code"
+            android:textColorHint="@color/bahaso_dark_gray"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:maxLines="1"
+            android:inputType="text"
+            android:textColor="@drawable/selector_textcolor_enablack_disagray"
+            android:maxLength="40"
+            android:padding="4dp"
+            android:digits="aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ0123456789"
+            android:longClickable="true"/>
+
+        <LinearLayout
+            android:id="@+id/layout_btn_payment_method"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center|bottom"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:clickable="true"
+            android:background="@drawable/background_btn_login">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/redeem_voucher"
+                android:textColor="@drawable/text_color_gold"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

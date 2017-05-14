@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:background="@color/bahaso_white_gray">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" >
+
+        <include layout="@layout/goldbar_new"
+            android:id="@+id/header_gold"/>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view3"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/bahaso_white_gray"
+            app:cardElevation="4dp"
+            app:cardMaxElevation="0dp"
+            android:layout_below="@id/header_gold">
+
+            <LinearLayout
+                android:id="@+id/layout_payment_history"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pny_kode_voucher"
+                android:visibility="visible"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:clickable="true"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/iv_payment_history"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/history"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginEnd="12dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/riwayat_pembayaran"
+                    android:textSize="14sp"
+                    android:textColor="@color/bahaso_black"/>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view1"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/card_view3"
+            app:cardBackgroundColor="@color/bahaso_white_gray"
+            app:cardElevation="4dp"
+            app:cardMaxElevation="0dp"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <RelativeLayout
+                    android:id="@+id/pny_kode_voucher"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp" >
+
+                    <android.support.v7.widget.AppCompatImageView
+                        android:id="@+id/iv_vouchergift"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/svg_voucher" />
+
+                    <TextView
+                        android:id="@+id/txt_voucer_code"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="14dp"
+                        android:layout_marginStart="14dp"
+                        android:layout_toRightOf="@id/iv_vouchergift"
+                        android:layout_toEndOf="@id/iv_vouchergift"
+                        android:layout_centerVertical="true"
+                        android:text="@string/voucher_text"
+                        android:textSize="16sp"
+                        android:textColor="@color/bahaso_black"/>
+
+                    <net.igenius.customcheckbox.CustomCheckBox
+                        android:id="@+id/checkbox_voucher"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="end|center"
+                        android:layout_toEndOf="@+id/txt_voucer_code"
+                        android:layout_toRightOf="@+id/txt_voucer_code"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginStart="50dp"
+                        app:color_checked="@color/bahaso_blue"
+                        app:color_tick="@color/white"
+                        app:small_tick="false" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_redeem_voucher"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="gone"
+                    android:baselineAligned="true"
+                    android:weightSum="1" >
+
+                    <LinearLayout
+                        android:id="@+id/layout_isi_voucher"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.63"
+                        android:layout_gravity="center"
+                        android:visibility="visible"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp"
+                        android:paddingLeft="14dp"
+                        android:paddingRight="14dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:text="@string/voucher_text_code"
+                            android:textSize="14sp"
+                            android:textColor="@color/bahaso_black"/>
+
+                        <EditText
+                            android:id="@+id/et_voucher"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:background="@drawable/selector_edittext_rectangle_rounded"
+                            android:hint="@string/enter_voucher_code"
+                            android:textColorHint="@color/bahaso_dark_gray"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="16sp"
+                            android:maxLines="1"
+                            android:textColor="@drawable/selector_textcolor_enablack_disagray"
+                            android:maxLength="40"
+                            android:padding="4dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layout_btn_redeem_voucher"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_weight="0.37"
+                        android:layout_gravity="center|bottom"
+                        android:layout_marginBottom="12dp"
+                        android:layout_marginRight="12dp"
+                        android:layout_marginEnd="12dp"
+                        android:gravity="center"
+                        android:clickable="true"
+                        android:background="@drawable/background_btn_login">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/redeem_voucher"
+                            android:textColor="@drawable/text_color_gold"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view2"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="18dp"
+            app:cardBackgroundColor="@color/bahaso_white_gray"
+            app:cardElevation="4dp"
+            app:cardMaxElevation="0dp"
+            android:layout_below="@+id/card_view1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/gold_new"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginStart="8dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="16sp"
+                            android:textColor="@color/bahaso_black"
+                            android:text="@string/gold_top_up_package_title"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="6dp"
+                            android:textSize="14sp"
+                            android:textColor="@color/bahaso_black"
+                            android:text="@string/pilih_gold"/>
+
+                    </LinearLayout>
+                    <!--<FrameLayout-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content">-->
+
+                        <!--<LinearLayout-->
+                            <!--android:id="@+id/vg_gold_packet"-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:orientation="vertical"-->
+                            <!--android:layout_marginLeft="8dp"-->
+                            <!--android:layout_marginRight="8dp">-->
+                        <!--</LinearLayout>-->
+
+                        <!--<android.support.v4.widget.ContentLoadingProgressBar-->
+                            <!--android:id="@+id/topup_loading_progress_bar"-->
+                            <!--style="?android:attr/progressBarStyleInverse"-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_gravity="center"-->
+                            <!--android:visibility="invisible">-->
+                        <!--</android.support.v4.widget.ContentLoadingProgressBar>-->
+
+                    <!--</FrameLayout>-->
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginStart="10dp"
+                        android:text="@string/jumlah_gold"
+                        android:textSize="16sp"
+                        android:textColor="@color/bahaso_blue"/>
+
+                    <EditText
+                        android:id="@+id/et_gold"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginRight="10dp"
+                        android:textColorHint="#999999"
+                        android:textColor="@color/bahaso_black"
+                        android:maxLines="1"
+                        android:maxLength="5"
+                        android:inputType="number"
+                        android:padding="4dp"
+                        android:background="@drawable/selector_edittext_rectangle_rounded" />
+
+                    <TextView
+                        android:id="@+id/tv_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginStart="6dp"
+                        android:padding="2dp"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:textColor="@color/bahaso_black"
+                        android:visibility="gone"/>
+
+                    <LinearLayout
+                        android:id="@+id/layout_btn_payment_method"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center|bottom"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginBottom="20dp"
+                        android:gravity="center"
+                        android:clickable="true"
+                        android:background="@drawable/background_btn_login">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/choose_payment_method"
+                            android:textColor="@drawable/text_color_gold"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </RelativeLayout>
+
+</android.support.v4.widget.NestedScrollView>

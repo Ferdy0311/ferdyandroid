@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:gravity="center_vertical"-->
+    <!--android:paddingEnd="@dimen/spacing_16"-->
+    <!--android:paddingRight="@dimen/spacing_16"-->
+    <!--android:clickable="true"-->
+    <!--android:background="?attr/selectableItemBackground">-->
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@+id/iv_bank_group_name"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:scaleType="fitCenter"/>
+    <TextView
+        android:id="@+id/tv_bank_group"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:textColor="@color/bahaso_dark_blue"
+        android:textStyle="bold"/>
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/iv_indicator"
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        app:srcCompat="@drawable/svg_continue" />
+</merge>
+<!--</LinearLayout>-->

@@ -1,0 +1,32 @@
+<FrameLayout
+    android:layout_width="110dp"
+    android:layout_height="36dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/selector_rect_selectable_rounded2"
+    android:layout_margin="4dp"
+    android:clickable="true"
+    android:focusable="true">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@color/selector_text_black2white"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:padding="2dp">
+    </TextView>
+</FrameLayout>
+<!--<com.bahaso.widget.MuseoTextView-->
+    <!--android:layout_width="@dimen/min_width_smaller_view"-->
+    <!--android:layout_height="@dimen/min_height_small_medium_button"-->
+    <!--android:textSize="@dimen/medium_font_size"-->
+    <!--android:textColor="@color/selector_text_black2white"-->
+    <!--android:background="@drawable/selector_rect_selectable_rounded2"-->
+    <!--android:layout_margin="@dimen/spacing_4"-->
+    <!--android:gravity="center"-->
+    <!--android:padding="@dimen/spacing_2"-->
+    <!--android:clickable="true"-->
+    <!--android:focusable="true"-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android">-->
+
+<!--</com.bahaso.widget.MuseoTextView>-->

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:cropToPadding="true"
+    android:elevation="6dp"
+    android:forceHasOverlappingRendering="true"
+
+    >
+
+    <Button
+        android:padding="10dp"
+        android:forceHasOverlappingRendering="true"
+        android:elevation="6dp"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:cropToPadding="true"
+        android:text="tes"
+        android:textColor="@color/bahaso_black_gray"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="35dp"
+        android:background="@drawable/background_button_drag_choices_unselected"
+        android:scaleType="fitXY"
+        android:id="@+id/buttonBoxMatchListAnswerItem" />
+
+
+</LinearLayout>

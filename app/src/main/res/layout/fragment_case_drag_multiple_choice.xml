@@ -1,0 +1,101 @@
+<com.bahaso.widget.DragContainer
+    android:id="@+id/dragContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <!-- placed in body
+        <include layout="@layout/case_instruction_text" />
+        -->
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.bahaso.widget.MuseoTextView
+                    android:id="@+id/questionText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    />
+
+                <!-- android:text="drove" -->
+
+                <View
+                    android:id="@+id/lineBreak"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginRight="32dp"
+                    android:background="@color/bahaso_gray"/>
+
+                <TextView
+                    android:id="@+id/questionInfoText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:id="@+id/equals"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="="/>
+
+                <!-- no longer user. changer to com.bahaso.widget.DroppedStateFrame -->
+                <!--<FrameLayout-->
+                    <!--android:id="@+id/drop"-->
+                    <!--android:layout_width="@dimen/min_width_smaller_view"-->
+                    <!--android:layout_height="@dimen/min_height_medium_button"-->
+                    <!--android:layout_gravity="center_horizontal"-->
+                    <!--android:background="@drawable/drop_rectangle">-->
+                <!--</FrameLayout>-->
+
+                <include layout="@layout/case_single_large_droppedstateframe" />
+
+                <com.bahaso.widget.MuseoTextView
+                    android:id="@+id/answerInfoText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:layout_gravity="center_horizontal"/>
+            </LinearLayout>
+        </ScrollView>
+
+        <include layout="@layout/case_single_line_scrollview_button_group" />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="4dp"
+        card_view:cardElevation="6dp"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardPreventCornerOverlap="false"
+        android:visibility="gone">
+        <ImageView
+            android:id="@+id/iv_drag_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <!--android:background="@android:drawable/dialog_holo_light_frame"-->
+    </android.support.v7.widget.CardView>
+
+</com.bahaso.widget.DragContainer>

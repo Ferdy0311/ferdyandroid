@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="8dp" android:layout_gravity="center">
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/dialog_imageview1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:alpha="1.0"
+            android:src="@drawable/pattern" />
+
+        <ImageView
+            android:id="@+id/dialog_imageview2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/top_up" />
+    </FrameLayout>
+
+    <TextView
+        android:text="Top Up Berhasil"
+        android:id="@+id/dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/frame"
+        android:layout_marginTop="12dp"
+        android:textStyle="bold"
+        android:textColor="@color/bahaso_black"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:text="Gold anda bertambah menjadi "
+        android:id="@+id/dialog_message"
+        android:layout_below="@+id/dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/bahaso_black"
+        android:textSize="14sp"/>
+
+
+</RelativeLayout>

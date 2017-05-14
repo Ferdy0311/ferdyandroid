@@ -1,0 +1,35 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- put in body instead
+    <include layout="@layout/case_instruction_text" />
+    -->
+
+    <include layout="@layout/case_single_speaker_medium"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <include layout="@layout/case_single_text_center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <com.bahaso.widget.RecyclerViewAutoFit
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnWidth="150dp"
+        android:clipToPadding="false"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"/>
+
+</LinearLayout>

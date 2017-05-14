@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item type="id" name="homepage" />
+    <item type="id" name="community" />
+    <item type="id" name="teacher" />
+    <item type="id" name="store" />
+    <item type="id" name="settings" />
+    <item type="id" name="feedback" />
+    <item type="id" name="mywriting" />
+    <item type="id" name="course" />
+    <item type="id" name="topup" />
+    <item type="id" name="scholarship" />
+    <item type="id" name="certificate" />
+
+    <item type="id" name="acccat" />
+    <item type="id" name="accver" />
+    <item type="id" name="prof" />
+    <item type="id" name="pass" />
+    <item type="id" name="soundcat" />
+    <item type="id" name="faq" />
+    <!-- <item type="id" name="feedback" /> --> <!-- has been there -->
+    <item type="id" name="logout" />
+
+    <item type="id" name="id" />
+
+    <item type="id" name="button_register" />
+    <item type="id" name="button_login" />
+</resources>

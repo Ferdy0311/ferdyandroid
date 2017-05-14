@@ -1,0 +1,23 @@
+<FrameLayout
+    android:layout_height="36dp"
+    android:layout_width="128dp"
+    android:orientation="horizontal"
+    android:background="@drawable/drag_rectangle_with_pin"
+    android:paddingTop="6dp"
+    android:paddingLeft="2dp"
+    android:paddingRight="2dp"
+    android:layout_margin="4dp"
+    android:clickable="true"
+    android:focusable="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/tv_draggable_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:textColor="@color/selector_text_black2white"/>
+    <!-- android:textColor="@color/bahaso_text_primary" -->
+</FrameLayout>

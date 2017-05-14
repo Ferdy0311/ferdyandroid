@@ -1,0 +1,10 @@
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:textColor="@color/bahaso_black"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+</TextView>

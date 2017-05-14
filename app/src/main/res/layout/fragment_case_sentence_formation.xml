@@ -1,0 +1,36 @@
+<!-- Frame Layout is used to add animated TextView -->
+<FrameLayout
+    android:id="@+id/container"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <!-- handled in body
+        <include layout="@layout/case_instruction_text" />
+        -->
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <com.bahaso.widget.wefikaflowlayout.FlowLayout
+                android:id="@+id/flow_result"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:animateLayoutChanges="true"
+                android:padding="4dp">
+            </com.bahaso.widget.wefikaflowlayout.FlowLayout>
+        </ScrollView>
+
+        <include layout="@layout/case_1weight_scrollview_flow_button_group" />
+
+    </LinearLayout>
+</FrameLayout>

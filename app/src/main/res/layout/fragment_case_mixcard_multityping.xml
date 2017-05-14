@@ -1,0 +1,131 @@
+<ScrollView
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <!--
+        <include layout="@layout/case_instruction_text" /> -->
+
+        <FrameLayout
+            android:layout_width="316dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="12dp">
+
+            <LinearLayout
+                android:id="@+id/linearlayoutoutercontent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <!--<FrameLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent">-->
+                <!--<LinearLayout-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="vertical"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:gravity="center_horizontal">-->
+
+                <!--
+                  _______
+                 |<|   |>|
+                 \_______/
+
+                 | Type  |
+
+                -->
+                <LinearLayout
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal">
+                    <!--
+                         ___
+                    <-  |   |  ->
+                        \___/
+                    -->
+                    <LinearLayout
+                        android:id="@+id/linearlayoutcontent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <!--<ImageView-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_gravity="center_vertical"-->
+                        <!--android:src="@drawable/arrowleft"/>-->
+
+                        <include layout="@layout/case_single_peek_button_left" />
+
+                        <FrameLayout
+                            android:layout_width="256dp"
+                            android:layout_height="156dp">
+                            <android.support.v4.view.ViewPager
+                                android:id="@+id/viewpager"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent" />
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/rect_strokeblue" />
+                        </FrameLayout>
+
+                        <include layout="@layout/case_single_peek_button_right" />
+
+                    </LinearLayout>
+
+                    <!--<com.bahaso.widget.MuseoTextView-->
+                    <!--android:id="@+id/tv_text1"-->
+                    <!--android:layout_width="@dimen/bahaso_case_imagesrc_xlarge_width"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginTop="@dimen/spacing_4"-->
+                    <!--android:gravity="center"-->
+                    <!--android:textSize="@dimen/large_font_size"/>-->
+                    <!--<View-->
+                    <!--android:layout_width="@dimen/bahaso_case_imagesrc_xlarge_width"-->
+                    <!--android:layout_height="1dp"-->
+                    <!--android:background="@color/bahaso_blue" />-->
+                    <!--<com.bahaso.widget.MuseoTextView-->
+                    <!--android:id="@+id/tv_text2"-->
+                    <!--android:layout_width="@dimen/bahaso_case_imagesrc_xlarge_width"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:gravity="center"/>-->
+
+                </LinearLayout>
+
+                <include layout="@layout/case_single_edittext_matchparent"
+                    android:layout_marginTop="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <include layout="@layout/case_single_speaker_medium"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="top|left"
+                android:layout_marginTop="130dp"/>
+        </FrameLayout>
+
+    </LinearLayout>
+</ScrollView>
+
+<!--</LinearLayout>-->
+<!--</FrameLayout>-->
+
+<!--<com.bahaso.widget.AutoFitRecyclerView-->
+<!--android:id="@+id/recycleview"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="match_parent"-->
+<!--android:columnWidth="@dimen/bahaso_case_gridview_medium_width"-->
+<!--android:clipToPadding="false"-->
+<!--android:layout_gravity="center_horizontal"-->
+<!--android:layout_marginLeft="@dimen/spacing_h_8"-->
+<!--android:layout_marginRight="@dimen/spacing_h_8"/>-->

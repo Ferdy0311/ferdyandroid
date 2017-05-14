@@ -1,0 +1,17 @@
+<FrameLayout
+    android:layout_width="210dp"
+    android:layout_height="117dp"
+    android:layout_gravity="center_horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <include layout="@layout/case_single_image_with_frame"
+        android:layout_width="192dp"
+        android:layout_height="117dp"
+        android:layout_gravity="end|top"/>
+
+    <include layout="@layout/case_single_speaker_small"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_gravity="bottom|start"/>
+
+</FrameLayout>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_pay_with_cc"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:background="@color/bahaso_white_gray"
+    tools:context="com.bahaso.gold.PayTopUpWithCC">
+
+    <include layout="@layout/toolbar_top_nogoldbar" />
+    <include layout="@layout/viewgroup_topup_package_info" />
+
+    <com.bahaso.widget.CVCreditCard
+        android:id="@+id/cv_credit_card"
+        android:layout_width="260dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="4dp"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til_credit_card_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:textColorHint="#999999"
+        app:hintAnimationEnabled="false" >
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/et_credit_card_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:maxLines="1"
+            android:hint="@string/cc_number_hint"
+            android:maxLength="19"
+            android:inputType="number"
+            android:textColor="@drawable/selector_textcolor_enablack_disagray"
+            android:imeOptions="actionNext"
+            android:theme="@style/EditTextStyle"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:orientation="horizontal">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/til_expiry_date"
+            android:layout_width="0dp"
+            android:layout_weight="7"
+            android:layout_height="wrap_content"
+            android:textColorHint="#999999"
+            app:hintAnimationEnabled="false">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/et_expiry_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:maxLines="1"
+                android:hint="@string/cc_expiry_date_hint2"
+                android:inputType="date"
+                android:maxLength="7"
+                android:textColor="@drawable/selector_textcolor_enablack_disagray"
+                android:imeOptions="actionNext"
+                android:theme="@style/EditTextStyle" />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/til_cvv"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            app:hintAnimationEnabled="false"
+            android:textColorHint="#999999"
+            app:passwordToggleEnabled="false">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/et_cvv"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:maxLength="4"
+                android:inputType="numberPassword"
+                android:textSize="16sp"
+                android:maxLines="1"
+                android:theme="@style/EditTextStyle"
+                android:hint="@string/cc_cvv_hint2"
+                android:textColor="@drawable/selector_textcolor_enablack_disagray"
+                android:imeOptions="actionDone"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/btn_paynow"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="24dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center"
+        android:background="@drawable/background_btn_login"
+        android:clickable="true"
+        android:onClick="onClick_payCC" >
+
+        <TextView
+            android:id="@+id/paynow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/paynow"
+            android:textSize="16sp"
+            android:textColor="@drawable/text_color_gold"/>
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_toRightOf="@+id/paynow"
+            android:layout_toEndOf="@+id/paynow"
+            android:layout_marginLeft="6dp"
+            android:layout_marginStart="6dp"
+            app:srcCompat="@drawable/svg_continue" />
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

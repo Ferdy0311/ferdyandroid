@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/bahaso_lighter_brown"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--<android.support.v7.widget.Toolbar-->
+        <!--android:id="@+id/toolbar"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:minHeight="?attr/actionBarSize"-->
+        <!--android:background="@color/bahaso_blue"-->
+        <!--app:titleTextColor="#FFFFFF"-->
+        <!--app:titleTextAppearance="@style/Toolbar.TitleText"-->
+        <!--app:contentInsetStartWithNavigation="0dp"-->
+        <!--app:contentInsetLeft="0dp"-->
+        <!--app:contentInsetStart="0dp"/>-->
+
+    <include layout="@layout/toolbar_top_nogoldbar" />
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/bahaso_lighter_brown"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <ScrollView
+            android:id="@+id/scrollview"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:scrollbars="none"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:clipToPadding="false"
+                android:clipChildren="false"
+                android:gravity="center_horizontal">
+
+                <include layout="@layout/viewgroup_topup_package_info" />
+
+                <!--<FrameLayout-->
+                    <!--android:id="@+id/container"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_gravity="center_horizontal"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:clipChildren="false">-->
+                <!--</FrameLayout>-->
+
+                <RelativeLayout
+                    android:id="@+id/expandHighlight"
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="7dp"
+                    android:visibility="visible">
+
+                    <RelativeLayout
+                        android:id="@+id/expandIndomaret"
+                        android:layout_width="fill_parent"
+                        android:layout_height="70dp"
+                        android:clickable="true"
+                        android:onClick="onClick_topupgold"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:animateLayoutChanges="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true">
+
+                        <ImageView
+                            android:id="@+id/iv_indomaret"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/indomaret"/>
+
+                        <android.support.v7.widget.AppCompatImageView
+                            android:id="@+id/down_arrow_indomaret"
+                            app:srcCompat="@drawable/svg_dropdown_arrow"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentEnd="true"/>
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layout_content_indomaret"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/expandIndomaret"
+                        android:background="@drawable/content_border"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/deskripsi_indomaret"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/bahaso_black"
+                            android:textSize="14sp" />
+
+                    <!--<View-->
+                        <!--android:id="@+id/separator"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="1dp"-->
+                        <!--android:layout_marginTop="2dp"-->
+                        <!--android:layout_below="@+id/deskripsi_payment"-->
+                        <!--android:background="@android:color/darker_gray"-->
+                        <!--android:visibility="gone"/>-->
+
+                        <LinearLayout
+                            android:id="@+id/layout_btn_indomaret"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:background="@drawable/background_btn_login"
+                            android:clickable="true"
+                            android:onClick="onClick_topupgold"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/pay_now"
+                                android:textColor="@drawable/text_color_gold"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/expandHighlight2"
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="7dp" >
+
+                    <RelativeLayout
+                        android:id="@+id/expandCreditCard"
+                        android:layout_width="fill_parent"
+                        android:layout_height="70dp"
+                        android:clickable="true"
+                        android:onClick="onClick_topupgold"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:animateLayoutChanges="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true">
+
+                        <ImageView
+                            android:id="@+id/iv_cc"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/cc"/>
+
+                        <android.support.v7.widget.AppCompatImageView
+                            android:id="@+id/down_arrow_cc"
+                            app:srcCompat="@drawable/svg_dropdown_arrow"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentEnd="true"/>
+
+                    </RelativeLayout>
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/deskripsi_cc"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_below="@+id/expandCreditCard"-->
+                        <!--android:background="@drawable/content_border"-->
+                        <!--android:textColor="@color/bahaso_black"-->
+                        <!--android:text="lksjhgjksgkafcbabdyvgyabdsyfbagydsvfljgdfagbvasdhnajknhjahnvnahsdchfmjunhgmunhauhuaenhxnuewnhtviagdfhasdgyuawfyugwqobgoybavgotqnorvnahunhguahsgioiyaoivyaounyqunyrobvvuincroimxwumhecoin4oc5yn086v0qnw0nhqwcunhfciasdfngaosdbgvonaschngoagoibaovy401104604176v-134vn0vgnhfdnghbneuiytpqnpboqnvpnpnaspduvnoinfv"-->
+                        <!--android:textSize="14sp" />-->
+
+                    <LinearLayout
+                        android:id="@+id/layout_content_cc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/expandCreditCard"
+                        android:orientation="vertical"
+                        android:background="@drawable/content_border" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/txt_cc_pay_method"
+                            android:textColor="@color/bahaso_black" />
+
+                        <LinearLayout
+                            android:id="@+id/layout_btn_pay_cc"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:background="@drawable/background_btn_login"
+                            android:clickable="true"
+                            android:onClick="onClick_topupgold"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/txt_continue"
+                                android:textColor="@drawable/text_color_gold"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/expandHighlight3"
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="7dp"
+                    android:visibility="visible">
+
+                    <RelativeLayout
+                        android:id="@+id/expandBCA"
+                        android:layout_width="fill_parent"
+                        android:layout_height="70dp"
+                        android:clickable="true"
+                        android:onClick="onClick_topupgold"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:animateLayoutChanges="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true">
+
+                        <ImageView
+                            android:id="@+id/iv_bca"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/bca"/>
+
+                        <android.support.v7.widget.AppCompatImageView
+                            android:id="@+id/down_arrow_bca"
+                            app:srcCompat="@drawable/svg_dropdown_arrow"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentEnd="true"/>
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layout_content_bca"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/expandBCA"
+                        android:background="@drawable/content_border"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/title_deskripsi_bca"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/bahaso_black"
+                            android:text="@string/bank_transfer_bca"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/deskripsi_bca"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:textColor="@color/bahaso_black"
+                            android:textSize="14sp" />
+
+                        <!--<View-->
+                        <!--android:id="@+id/separator"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="1dp"-->
+                        <!--android:layout_marginTop="2dp"-->
+                        <!--android:layout_below="@+id/deskripsi_payment"-->
+                        <!--android:background="@android:color/darker_gray"-->
+                        <!--android:visibility="gone"/>-->
+
+                        <LinearLayout
+                            android:id="@+id/layout_btn_bca"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:background="@drawable/background_btn_login"
+                            android:clickable="true"
+                            android:onClick="onClick_topupgold"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/pay_now"
+                                android:textColor="@drawable/text_color_gold"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/expandHighlight4"
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="7dp"
+                    android:visibility="gone">
+
+                    <RelativeLayout
+                        android:id="@+id/expandMandiri"
+                        android:layout_width="fill_parent"
+                        android:layout_height="70dp"
+                        android:clickable="true"
+                        android:onClick="onClick_topupgold"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:animateLayoutChanges="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true">
+
+                        <ImageView
+                            android:id="@+id/iv_mandiri"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/mandiri"/>
+
+                        <android.support.v7.widget.AppCompatImageView
+                            android:id="@+id/down_arrow_mandiri"
+                            app:srcCompat="@drawable/svg_dropdown_arrow"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentEnd="true"/>
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layout_content_mandiri"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/expandMandiri"
+                        android:background="@drawable/content_border"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/title_deskripsi_mandiri"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/bank_transfer_mandiri"
+                            android:textColor="@color/bahaso_black"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/deskripsi_mandiri"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:textColor="@color/bahaso_black"
+                            android:textSize="14sp" />
+
+                        <!--<View-->
+                        <!--android:id="@+id/separator"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="1dp"-->
+                        <!--android:layout_marginTop="2dp"-->
+                        <!--android:layout_below="@+id/deskripsi_payment"-->
+                        <!--android:background="@android:color/darker_gray"-->
+                        <!--android:visibility="gone"/>-->
+
+                        <LinearLayout
+                            android:id="@+id/layout_btn_mandiri"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:background="@drawable/background_btn_login"
+                            android:clickable="true"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/pay_now"
+                                android:textColor="@drawable/text_color_gold"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/expandHighlight5"
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="7dp" >
+
+                    <RelativeLayout
+                        android:id="@+id/expandPermata"
+                        android:layout_width="fill_parent"
+                        android:layout_height="70dp"
+                        android:clickable="true"
+                        android:onClick="onClick_topupgold"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:animateLayoutChanges="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true">
+
+                        <ImageView
+                            android:id="@+id/iv_permata"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/permata"/>
+
+                        <android.support.v7.widget.AppCompatImageView
+                            android:id="@+id/down_arrow_permata"
+                            app:srcCompat="@drawable/svg_dropdown_arrow"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentEnd="true"/>
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layout_content_permata"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/expandPermata"
+                        android:background="@drawable/content_border"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/title_deskripsi_permata"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/bank_transfer_permata"
+                            android:textColor="@color/bahaso_black"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/deskripsi_permata"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:textColor="@color/bahaso_black"
+                            android:textSize="14sp" />
+
+                        <!--<View-->
+                        <!--android:id="@+id/separator"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="1dp"-->
+                        <!--android:layout_marginTop="2dp"-->
+                        <!--android:layout_below="@+id/deskripsi_payment"-->
+                        <!--android:background="@android:color/darker_gray"-->
+                        <!--android:visibility="gone"/>-->
+
+                        <LinearLayout
+                            android:id="@+id/layout_btn_permata"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:background="@drawable/background_btn_login"
+                            android:clickable="true"
+                            android:onClick="onClick_topupgold"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/pay_now"
+                                android:textColor="@drawable/text_color_gold"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/expandHighlight6"
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="7dp" >
+
+                    <RelativeLayout
+                        android:id="@+id/expandPrima"
+                        android:layout_width="fill_parent"
+                        android:layout_height="70dp"
+                        android:clickable="true"
+                        android:onClick="onClick_topupgold"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:animateLayoutChanges="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true">
+
+                        <ImageView
+                            android:id="@+id/iv_prima"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/prima"/>
+
+                        <android.support.v7.widget.AppCompatImageView
+                            android:id="@+id/down_arrow_prima"
+                            app:srcCompat="@drawable/svg_dropdown_arrow"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentEnd="true"/>
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layout_content_prima"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/expandPrima"
+                        android:background="@drawable/content_border"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/title_deskripsi_prima"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/bank_transfer_prima"
+                            android:textColor="@color/bahaso_black"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/deskripsi_prima"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:textColor="@color/bahaso_black"
+                            android:textSize="14sp" />
+
+                        <!--<View-->
+                        <!--android:id="@+id/separator"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="1dp"-->
+                        <!--android:layout_marginTop="2dp"-->
+                        <!--android:layout_below="@+id/deskripsi_payment"-->
+                        <!--android:background="@android:color/darker_gray"-->
+                        <!--android:visibility="gone"/>-->
+
+                        <LinearLayout
+                            android:id="@+id/layout_btn_prima"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:background="@drawable/background_btn_login"
+                            android:clickable="true"
+                            android:onClick="onClick_topupgold"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/pay_now"
+                                android:textColor="@drawable/text_color_gold"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/expandHighlight7"
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="7dp" >
+
+                    <RelativeLayout
+                        android:id="@+id/expandBersama"
+                        android:layout_width="fill_parent"
+                        android:layout_height="70dp"
+                        android:clickable="true"
+                        android:onClick="onClick_topupgold"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:animateLayoutChanges="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true">
+
+                        <ImageView
+                            android:id="@+id/iv_bersama"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/bersama"/>
+
+                        <android.support.v7.widget.AppCompatImageView
+                            android:id="@+id/down_arrow_bersama"
+                            app:srcCompat="@drawable/svg_dropdown_arrow"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentEnd="true"/>
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layout_content_bersama"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/expandBersama"
+                        android:background="@drawable/content_border"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/title_deskripsi_bersama"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/bank_transfer_bersama"
+                            android:textColor="@color/bahaso_black"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/deskripsi_bersama"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:textColor="@color/bahaso_black"
+                            android:textSize="14sp" />
+
+                        <!--<View-->
+                        <!--android:id="@+id/separator"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="1dp"-->
+                        <!--android:layout_marginTop="2dp"-->
+                        <!--android:layout_below="@+id/deskripsi_payment"-->
+                        <!--android:background="@android:color/darker_gray"-->
+                        <!--android:visibility="gone"/>-->
+
+                        <LinearLayout
+                            android:id="@+id/layout_btn_bersama"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:background="@drawable/background_btn_login"
+                            android:clickable="true"
+                            android:onClick="onClick_topupgold"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/pay_now"
+                                android:textColor="@drawable/text_color_gold"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/expandHighlight8"
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="7dp" >
+
+                    <RelativeLayout
+                        android:id="@+id/expandAlto"
+                        android:layout_width="fill_parent"
+                        android:layout_height="70dp"
+                        android:clickable="true"
+                        android:onClick="onClick_topupgold"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:animateLayoutChanges="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true">
+
+                        <ImageView
+                            android:id="@+id/iv_alto"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/alto"/>
+
+                        <android.support.v7.widget.AppCompatImageView
+                            android:id="@+id/down_arrow_alto"
+                            app:srcCompat="@drawable/svg_dropdown_arrow"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentEnd="true"/>
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layout_content_alto"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/expandAlto"
+                        android:background="@drawable/content_border"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/title_deskripsi_alto"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/bank_transfer_alto"
+                            android:textColor="@color/bahaso_black"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/deskripsi_alto"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:textColor="@color/bahaso_black"
+                            android:textSize="14sp" />
+
+                        <!--<View-->
+                        <!--android:id="@+id/separator"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="1dp"-->
+                        <!--android:layout_marginTop="2dp"-->
+                        <!--android:layout_below="@+id/deskripsi_payment"-->
+                        <!--android:background="@android:color/darker_gray"-->
+                        <!--android:visibility="gone"/>-->
+
+                        <LinearLayout
+                            android:id="@+id/layout_btn_alto"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:background="@drawable/background_btn_login"
+                            android:clickable="true"
+                            android:onClick="onClick_topupgold"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/pay_now"
+                                android:textColor="@drawable/text_color_gold"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

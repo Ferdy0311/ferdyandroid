@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- for selecting textView
+ solid rectangle. no corner, no stroke-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="false">
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent" />
+        </shape>
+    </item>
+    <!--  Checked Activated-->
+    <item android:state_selected="true" android:state_activated="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/bahaso_blue" />
+        </shape>
+    </item>
+    <!--  Checked not Activated-->
+    <item android:state_selected="true" android:state_activated="false">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/bahaso_red" />
+        </shape>
+    </item>
+
+</selector>

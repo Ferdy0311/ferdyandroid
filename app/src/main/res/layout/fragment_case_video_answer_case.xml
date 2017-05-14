@@ -1,0 +1,87 @@
+<!--<ScrollView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto">-->
+
+<LinearLayout
+    android:id="@+id/linearlayoutcontent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <include layout="@layout/case_single_video_player"
+        android:layout_height="200dp"
+        android:layout_width="match_parent"/>
+
+    <!--<FrameLayout-->
+    <!--android:id="@+id/vg_speech_outer"-->
+    <!--android:layout_width="@dimen/bahaso_case_speech_recognizer_width_large"-->
+    <!--android:layout_height="@dimen/bahaso_case_speech_recognizer_width_large"-->
+    <!--android:layout_marginTop="@dimen/spacing_48"-->
+    <!--android:layout_gravity="center_horizontal">-->
+
+    <!--<com.bahaso.widget.MuseoTextView-->
+        <!--android:id="@+id/tv_question"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center"-->
+        <!--android:padding="@dimen/spacing_4"-->
+        <!--android:layout_marginTop="@dimen/spacing_2"-->
+        <!--android:layout_marginBottom="@dimen/spacing_2"-->
+        <!--android:layout_marginLeft="@dimen/spacing_32"-->
+        <!--android:layout_marginRight="@dimen/spacing_32"/>-->
+
+    <!--<include layout="@layout/case_single_voice_recognizer_medium"-->
+        <!--android:layout_width="@dimen/bahaso_case_speech_recognizer_width_medium"-->
+        <!--android:layout_height="@dimen/bahaso_case_speech_recognizer_width_medium"-->
+        <!--android:layout_marginTop="@dimen/spacing_4"-->
+        <!--android:layout_gravity="center_horizontal" />-->
+
+    <!--<com.bahaso.widget.MuseoTextView-->
+    <!--android:id="@+id/tv_chance"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="bottom|end"-->
+    <!--android:layout_marginBottom="@dimen/spacing_28"-->
+    <!--android:layout_marginRight="@dimen/spacing_28"-->
+    <!--android:textColor="@color/bahaso_white_gray"-->
+    <!--android:text="1"-->
+    <!--app:tv_textStyle="bold" />-->
+    <!--</FrameLayout>-->
+
+    <!--<com.bahaso.widget.MuseoTextView-->
+        <!--android:id="@+id/tv_speech_result"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center"-->
+        <!--android:padding="@dimen/spacing_4"-->
+        <!--android:layout_marginTop="@dimen/spacing_4"-->
+        <!--android:layout_marginBottom="@dimen/spacing_4"-->
+        <!--android:layout_marginLeft="@dimen/spacing_32"-->
+        <!--android:layout_marginRight="@dimen/spacing_32"-->
+        <!--android:background="@drawable/selector_rect_selectable_nocorner"-->
+        <!--android:textColor="@color/selector_text_black2white"/>-->
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/linearlayoutchoices"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical">-->
+    <!--</LinearLayout>-->
+
+    <!--<com.bahaso.widget.MuseoTextView-->
+        <!--android:id="@+id/tv_turnonoff_microphone"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="@dimen/spacing_4"-->
+        <!--android:layout_marginBottom="@dimen/spacing_8"-->
+        <!--android:textColor="@color/bahaso_blue"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--app:tv_textStyle="underline"-->
+        <!--android:text="@string/txt_turn_off_microphone"-->
+        <!--android:clickable="true"/>-->
+
+</LinearLayout>
+<!--</ScrollView>-->

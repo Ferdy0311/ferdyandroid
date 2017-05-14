@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activityCasePlacement"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="com.bahaso.lesson.ActivityCasePlacement">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/activityCasePlacementContainer"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:minHeight="?attr/actionBarSize"
+            android:padding="5dp"
+            android:weightSum="1"
+            app:contentInsetLeft="0dp"
+            app:contentInsetStartWithNavigation="0dp"
+            app:titleTextAppearance="@style/Toolbar.TitleText"
+            app:titleTextColor="#FFFFFF">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.63">
+
+
+                <TextView
+                    android:id="@+id/txtActivityCaseSkip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/activity_case_placement_title_left"
+                    android:textAllCaps="true"
+                    android:textColor="@color/bahaso_darker_gray"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/txtActivityCasePlacementTest"
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/activity_case_placement_title_center"
+                    android:textColor="@color/bahaso_darker_gray"
+                    android:textSize="18sp" />
+
+                <TextView
+
+                    android:id="@+id/txtActivityCaseTimer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:text="20:00"
+                    android:textColor="@color/bahaso_blue"
+                    android:textSize="18sp" />
+
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.Toolbar>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/pagerCase"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_above="@+id/linearLayoutWrongCorrectAnswer">
+
+            </android.support.v4.view.ViewPager>
+
+            <LinearLayout
+                android:visibility="gone"
+                android:clickable="true"
+                android:id="@+id/linearLayoutWrongCorrectAnswer"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:orientation="horizontal">
+
+            <include layout="@layout/layout_case_correct_message"/>
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <include layout="@layout/layout_case_control" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<com.bahaso.widget.DroppedStateFrame
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="110dp"
+    android:layout_height="36dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="1dp"
+    android:layout_marginBottom="1dp"
+    android:id="@+id/outer_drop">
+
+    <!-- harus di child pertama -->
+    <com.bahaso.widget.DroppedStateFrame
+        android:id="@+id/drop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/selector_drop_rectangle">
+    </com.bahaso.widget.DroppedStateFrame>
+
+    <com.bahaso.widget.DroppedStateFrame
+        android:id="@+id/dotted_drop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/selector_drop_dotted_rectangle">
+    </com.bahaso.widget.DroppedStateFrame>
+
+</com.bahaso.widget.DroppedStateFrame>

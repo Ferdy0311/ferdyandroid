@@ -1,0 +1,427 @@
+<resources>
+    <string name="app_name" translatable="false">Bahaso</string>
+    <string name="facebook_app_id" translatable="false">1074535205923660</string>
+    <!--<string name="facebook_app_id" translatable="false">609068092617352</string>-->
+    <string name="bahaso_client_id" translatable="false">419452257310-qc3uuia3brsoqceh2q3ih3mcqdl03ejb.apps.googleusercontent.com</string>
+    <!--<string name="gplus_testing" translatable="false">935644690138-t9afnkjfk82hbb8rlm7hof2cm2uqbn9t.apps.googleusercontent.com</string>-->
+    <!--<string name="bahaso_client_id" translatable="false">935644690138-o2l3r62te6gdu44rfdd61m02abeb2v6n.apps.googleusercontent.com</string>-->
+
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="email_username">Email or Username</string>
+    <string name="email" translatable="false">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_pass">Forgot Password?</string>
+    <string name="title_forgot_pass">Forgot Password</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="terms">"By joining I declare that I have read and I accept
+                        &lt;a href=\"http://www.bahaso.com/terms\">&lt;b>The Terms &amp; Conditions &lt;/b> &lt;/a>
+                        and
+                        &lt;a href=\"http://www.bahaso.com/privacy\">&lt;b>The Privacy Policy &lt;/b> &lt;/a>"</string>
+    <string name="sign_in_with_facebook">Sign In with Facebook</string>
+    <string name="sign_in_with_google">Sign In with Google</string>
+    <string name="txt_b4_exit">Are you sure want to exit?</string>
+    <string name="enter_email_to_reset">We will send you instructions on how to reset your password by email.</string>
+    <string name="btn_txt_send">Send</string>
+    <string name="text_confirm_password">Confirmation Code</string>
+    <string name="text_resend_email">Resend Email</string>
+    <string name="email_confirmation_title">Email Confirmation</string>
+    <string name="text_confirm">Confirmation</string>
+    <string name="confirmation_text">Please enter the confirmation code that was sent to your email</string>
+    <string name="tab_gold">GOLD</string>
+    <string name="tab_home">HOME</string>
+    <string name="tab_voucher">VOUCHER</string>
+    <string name="lesson">Lesson</string>
+    <string name="community">Community</string>
+    <string name="bahaso_coming_soon" translatable="false">BETA</string>
+    <string name="voucher_text">Using Voucher Code</string>
+    <string name="enter_voucher_code">Enter voucher code</string>
+    <string name="redeem_voucher">Redeem Voucher</string>
+    <string name="gold_top_up_package_title">Refill Gold</string>
+    <string name="text_yes">YES</string>
+    <string name="text_no">NO</string>
+    <string name="my_certificate">Certificate</string>
+    <string name="profile_not_filled">(not filled yet)</string>
+    <string name="non_premium_status" translatable="false">Non Premium</string>
+    <string name="premium_until_xx">Premium Until %s</string>
+    <string name="please_enable_storage_permission">To use the storage,
+        please go to the Apps -> Settings -> Permissions the allow the storage</string>
+    <string name="please_enable_camera_permission">To use camera,
+        please go to the Apps -> Settings -> Permissions then allow the camera</string>
+    <string name="select_image">Select Image</string>
+    <string name="file_provider_authority" translatable="false">com.bahaso.fileprovider</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="birthdate">Birthday</string>
+    <string name="country">Country</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="hint_job">Job</string>
+    <string name="hint_about_me">About Me</string>
+    <string name="editprofil">Edit Profile</string>
+    <string name="ok" translatable="false">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="simpan">Save</string>
+    <string name="select_country">Select Country</string>
+    <string name="refill_gold_package">Refill Gold Package</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="creditcard">Credit Card</string>
+    <string name="transferatm" translatable="false">ATM Transfer</string>
+    <string name="credit_card">Credit Card</string>
+    <string name="credit_card_number_hint" translatable="false">XXXX XXXX XXXX XXXX</string>
+    <string name="exp_date" translatable="false">Exp. Date</string>
+    <string name="cc_expiry_date_hint" translatable="false">MM/YYYY</string>
+    <string name="cc_cvv_hint" translatable="false">XXX</string>
+    <string name="cc_number_hint">Credit Card Number</string>
+    <string name="cc_expiry_date_hint2" translatable="false">Expire Date (MM/YYYY)</string>
+    <string name="cc_cvv_hint2" translatable="false">CVV</string>
+    <string name="paynow">Pay Now</string>
+    <string name="credit_card_number_must_be_filled">Credit Card Number must be filled</string>
+    <string name="credit_card_must_be_16_digits">Credit Card Number must be 16 digits</string>
+    <string name="expiry_date_must_be_filled">Expired Date must be filled</string>
+    <string name="cvv_must_be_filled">CVV must be filled</string>
+    <string name="cvv_must_be_minimum_3_digits">CVV must be minimum 3 digits</string>
+    <string name="bank_transfer_info1">Please finish the payment via ATM</string>
+    <string name="bank_transfer_info2">Make sure that you enter below virtual account code</string>
+    <string name="bank_transfer_info3">Make sure the transferred amount is same like stated below</string>
+    <string name="bank_transfer_info4">Transfer the payment before:</string>
+    <string name="bank_transfer_info5">The payment detail and guideline can be referred in you...</string>
+    <string name="bank_transfer_info6">Gold will be added after transfer</string>
+    <string name="atm_transfer" translatable="false">ATM Transfer</string>
+    <string name="bca_pay_group_name">Payment via ATM BCA/ATM Prima Network</string>
+    <string name="mandiri_pay_group_name">Payment via ATM Mandiri/ATM Bersama Network</string>
+    <string name="permata_pay_group_name">Payment via Permata Bank</string>
+    <string name="alto_pay_group_name">Payment via Alto Bank</string>
+    <string name="account_title">Account</string>
+    <string name="edit_profile_title">Edit Profile</string>
+    <string name="change_password_title">Change Password</string>
+    <string name="sound_title">Sound</string>
+    <string name="no_speech_recog_detected">No Speech Recognition Detected in your Device</string>
+    <string name="microphone">Microphone</string>
+    <string name="faq">FAQ</string>
+    <string name="feedback">Feedback</string>
+    <string name="logout_title">Logout</string>
+    <string name="install_google_app_message">You need to install Google app from Google Play Store in order to use the Speech Recognition Service.</string>
+    <string name="cannot_run_speech_recognition">Cannot run speech recognition</string>
+    <string name="speech_recog_permission_denied">You need to enable permission for microphone in the app settings</string>
+    <string name="speech_recog_language_no_support">Speech recognition does not have the language needed for recognition</string>
+    <string name="setting">Settings</string>
+    <string name="course_not_choosen">(not choose the course yet)</string>
+    <string name="logout_app_ask">Logout?</string>
+    <string name="logout_app_message_ask_xxx">Are you sure you to logout from %s?</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="new_password_confirm">Confirm New Password</string>
+    <string name="change_password">Change Password</string>
+    <string name="label_enter_feedback">Please give the constructive feedback in order to improve Bahaso application</string>
+    <string name="hint_feedback_title">Title</string>
+    <string name="hint_location">Your Location</string>
+    <string name="hint_cellphone_number">Your Phone Number (optional)</string>
+    <string name="hint_feedback_message">Feedback</string>
+    <string name="top_up_success">Top Up Success</string>
+    <string name="secure_3d" translatable="false">3D Secure</string>
+    <string name="payment_web_exit_dialog_title">Cancel Transaction?</string>
+    <string name="payment_web_exit_dialog_message">Are you sure want to cancel this transaction?</string>
+    <string name="transfer_now">Transfer Now</string>
+    <string name="date_hour_format" formatted="false">dd MMMM yyyy, \'at\' HH:mm</string>
+    <string name="up">Up</string>
+    <string name="tab_writing">My Writing</string>
+    <string name="tab_course">Course</string>
+    <string name="tab_upgrade" translatable="false">Upgrade</string>
+    <string name="txt_cc_pay_method">Payment via Credit Card</string>
+    <string name="txt_continue">Continue</string>
+    <string name="bank_transfer_bca">Bank Transfer BCA</string>
+    <string name="bank_transfer_mandiri">Bank Transfer Mandiri</string>
+    <string name="bank_transfer_permata">Bank Transfer Permata</string>
+    <string name="bank_transfer_prima">Pembayaran melalui jaringan ATM Prima</string>
+    <string name="bank_transfer_bersama">Pembayaran melalui jaringan ATM Bersama</string>
+    <string name="bank_transfer_alto">Pembayaran melalui jaringan ATM Alto</string>
+    <string name="txt_payment_code">The following is your payment code</string>
+    <string name="txt_make_sure_nominal_payment">Make sure the amount you transferred is:</string>
+    <string name="txt_payment_procedures">Payment detail and procedure payment can be seen again via email or screeshot this page first.</string>
+    <string name="txt_gold_auto_increase">Gold automatically increase after transaction succeed.</string>
+    <string name="txt_back_to_home">Back to Home</string>
+    <string name="txt_no_history_payment">No History Payment</string>
+    <string name="payment_fail">Payment Fail</string>
+    <string name="payment_success">Payment Success</string>
+    <string name="payment_wait_confirm">Waiting to Confirm</string>
+    <string name="paymentHistory">Payment History</string>
+    <string name="paymentHistoryDetail">Payment Detail</string>
+    <string name="txt_bank_destination">Destination Bank</string>
+    <string name="txt_payment_method">Payment Method</string>
+    <string name="txt_failed_synchronize_google">Fail to synchronize to your Google account</string>
+    <string name="txt_more_info"><![CDATA[<b>…more…</b>]]></string>
+    <string name="txt_empty_point" translatable="false">0 pts</string>
+    <string name="txt_failed_synchronize_facebook">Fail to sychronize your Facebook account</string>
+    <string name="case_single_text_end_with_space" translatable="false">%1$s&#160;</string>
+    <string name="case_single_text_startend_with_space" translatable="false">&#160;%1$s&#160;</string>
+    <string name="type_here">Type here</string>
+    <string name="riwayat_pembayaran">Payment History</string>
+    <string name="voucher_text_code">Voucher Code</string>
+    <string name="case_true">TRUE</string>
+    <string name="case_false">FALSE</string>
+    <string name="pilih_gold">Please refill gold according to your need.</string>
+    <string name="jumlah_gold">Amount Gold</string>
+    <string name="choose_payment_method">Choose Payment Method</string>
+    <string name="audio_in_progress_download">Audio download is in progress</string>
+    <string name="txt_turn_off_microphone">Turn off microphone</string>
+    <string name="txt_turn_on_microphone">Turn on microphone</string>
+
+    <!--end-->
+
+    <!--bank info-->
+    <!--<string-array name="bca_info_array">-->
+    <!--<item>Masukkan PIN Anda.</item>-->
+    <!--<item>Di menu utama, pilih <![CDATA[<b>Transaksi lainnya</b>]]>.</item>-->
+    <!--<item>Pilih <![CDATA[<b>Transfer</b>]]>.</item>-->
+    <!--<item>Pilih <![CDATA[<b>ke Rek Bank Lain</b>]]>.</item>-->
+    <!--<item>Masukkan kode <![CDATA[<b>013</b>]]> untuk Bank Permata lalu tekan <![CDATA[<b>Benar</b>]]>.</item>-->
+    <!--<item>Masukkan jumlah harga yang akan Anda bayar secara lengkap (tanpa pembulatan).</item>-->
+    <!--<item>Masukkan <![CDATA[<b>%1$s</b>]]> (16 digit no. virtual account pembayaran) lalu tekan <![CDATA[<b>Benar</b>]]>.</item>-->
+    <!--<item>Di halaman konfirmasi transfer akan muncul jumlah yang dibayarkan dan no. rekening tujuan. Jika informasinya telah sesuai tekan <![CDATA[<b>Benar</b>]]>.</item>-->
+    <!--<item>Transaksi berhasil.</item>-->
+    <!--<item>~Biaya transaksi antar bank online adalah Rp5.000 - Rp7.500 per transaksi.</item>-->
+    <!--</string-array>-->
+
+    <!--<string-array name="mandiri_info_array">-->
+    <!--<item>Masukkan PIN Anda.</item>-->
+    <!--<item>Di menu utama, pilih <![CDATA[<b>Transaksi lainnya</b>]]>.</item>-->
+    <!--<item>Pilih <![CDATA[<b>Transfer</b>]]>.</item>-->
+    <!--<item>Pilih ke <![CDATA[<b>Rekening Bank Lain ATM Bersama/Link</b>]]>.</item>-->
+    <!--<item>Masukkan nomor <![CDATA[<b>013%1$s</b>]]> (kode 013 dan 16 digit Virtual account).</item>-->
+    <!--<item>Masukkan jumlah harga yang akan Anda bayar secara lengkap (tanpa pembulatan).</item>-->
+    <!--<item>Setelah itu tekan Benar.</item>-->
+    <!--<item>No. referensi dapat dikosongkan, lalu tekan <![CDATA[<b>Benar</b>]]>.</item>-->
+    <!--<item>Di halaman konfirmasi transfer akan muncul jumlah yang dibayarkan dan no. rekening tujuan. Jika informasinya telah sesuai tekan <![CDATA[<b>Benar</b>]]>.</item>-->
+    <!--<item>Transaksi berhasil.</item>-->
+    <!--<item>~Biaya transaksi antar bank online adalah Rp5.000 - Rp7.500 per transaksi.</item>-->
+    <!--</string-array>-->
+
+    <!--<string-array name="permata_info_array">-->
+    <!--<item>Masukkan PIN Anda.</item>-->
+    <!--<item>Di menu utama, pilih <![CDATA[<b>Transaksi lainnya</b>]]>.</item>-->
+    <!--<item>Pilih <![CDATA[<b>Transaksi Pembayaran</b>]]>.</item>-->
+    <!--<item>Pilih <![CDATA[<b>Lain-Lain</b>]]>.</item>-->
+    <!--<item>Pilih ke <![CDATA[<b>Pembayaran Virtual Account</b>]]>.</item>-->
+    <!--<item>Masukkan <![CDATA[<b>%1$s</b>]]> (16 digit no. virtual account pembayaran)</item>-->
+    <!--<item>Di halaman konfirmasi transfer akan muncul jumlah yang dibayarkan dan no. rekening tujuan.</item>-->
+    <!--<item>Jika informasinya telah sesuai tekan <![CDATA[<b>Benar</b>]]>.</item>-->
+    <!--<item>Pilih rekening pembayaran Anda dan tekan <![CDATA[<b>Benar</b>]]>.</item>-->
+    <!--<item>Transaksi berhasil.</item>-->
+    <!--</string-array>-->
+
+    <string-array name="alto_info_array">
+        <item>Masukkan PIN Anda.</item>
+        <item>Di menu utama, pilih Transaksi lainnya.</item>
+        <item>Pilih Transfer.</item>
+        <item>Pilih ke Rek Bank Lain.</item>
+        <item>Masukkan kode 013 untuk Bank Permata lalu tekan BENAR.</item>
+        <item>Masukkan jumlah harga yang akan Anda bayar secara lengkap (tanpa pembulatan).</item>
+        <item>Masukkan kode 013 dan 16 digit no. virtual account pembayaran lalu tekan BENAR.</item>
+        <item>Di halaman konfirmasi transfer akan muncul jumlah yang dibayarkan dan no. rekening tujuan. Jika informasinya telah sesuai tekan BENAR.</item>
+        <item>Transaksi berhasil.</item>
+        <item>Biaya transaksi antar bank online adalah Rp5.000 - Rp7.500 per transaksi.</item>
+    </string-array>
+
+    <string-array name="indomaret_info_array">
+        <item>Catat atau screenshot kode pembayaran anda dan datangi gerai Indomaret terdekat.</item>
+        <item>Beritahukan ke kasir bahwa kamu ingin melakukan topup Gold Bahaso.</item>
+        <item>Jika kasir tidak mengetahui mengenai topup Gold Bahaso, informasikan ke kasir untuk pilih "menu #" Search Top Up Gold Bahaso.</item>
+        <item>Kasir akan menanyakan kode pembayaran. Berikan kode pembayaranmu. Kasir akan memberi nominal yang harus dibayarkan.</item>
+        <item>Lakukan pembayaran sesuai nominal yang disebut kasir. Pembayaran dapat menggunakan uang tunai atau non-tunai, non-tunai diantara lain Debit BCA, Kartu Debit BNI, BCA Flazz, BNI prepaid, Mandiri e-money.</item>
+        <item>Simpan struk sebagai bukti pembayaran yang sudah dilakukan. Notifikasi pembayaran akan langsung diterima merchant.</item>
+    </string-array>
+
+    <string-array name="bca_info_array">
+        <item>Catat atau screenshot harga total pembayaran setelah item klik tombol "Bayar Sekarang".</item>
+        <item>Masukkan kartu ATM dan PIN BCA kamu.</item>
+        <item>Masuk ke menu TRANSFER dan pilih TRANSFER KE REK.BCA.</item>
+        <item>Mohon transfer sesuai jumlah harga total beserta 3 digit terakhir ke:\n Nomor Rekening: 764-089-8376 \n Atas Nama: PT Bahaso Intermedia Cakrawala.</item>
+        <item>Ikuti instruksi selanjutnya untuk menyelesaikan transaksi</item>
+    </string-array>
+
+    <string-array name="mandiri_info_array">
+        <item>Catat atau screenshot harga total pembayaran setelah item klik tombol "Bayar Sekarang".</item>
+        <item>Masukkan kartu ATM dan PIN Mandiri anda.</item>
+        <item>Masuk ke menu TRANSFER dan pilih menu Pembayaran</item>
+        <item>Masukkan kode 70012 (Midtrans). Tekan Benar.</item>
+        <item>Masukkan kode pembayaran. Tekan Benar.</item>
+        <item>Konfirmasi pembayaran. Tekan Ya.</item>
+        <item>Ikuti instruksi untuk menyelesaikan transaksi.</item>
+    </string-array>
+
+    <string-array name="permata_info_array">
+        <item>Catat atau screenshot kode pembayaran setelah klik tombol "Bayar Sekarang".</item>
+        <item>Masukkan PIN Permata kamu.</item>
+        <item>Di menu utama, pilih Transfer Lainnya.</item>
+        <item>Pilih menu pembayaran.</item>
+        <item>Pilih lain-lain.</item>
+        <item>Pilih pembayaran Virtual Account, masukkan kode pembayaran. Tekan Benar.</item>
+        <item>Konfirmasikan Pembayaran. Tekan Ya.</item>
+        <item>Ikuti instruksi untuk menyelesaikan transaksi.</item>
+    </string-array>
+
+    <string-array name="prima_info_array">
+        <item>Catat atau screeshot kode pembayaran setelah klik tombol "Bayar Sekarang".</item>
+        <item>Masukkan PIN kamu.</item>
+        <item>Di menu utama, pilih Transaksi lainnya.</item>
+        <item>Pilih Transfer.</item>
+        <item>Pilih ke Rek Bank lain.</item>
+        <item>Masukkan kode 013 untuk Bank Permata lalu tekan benar.</item>
+        <item>Masukkan jumlah Gold dalam Rupiah (IDR) yang akan dibayar secara lengkap.</item>
+        <item>Masukkan kode pembayaran lalu tekan benar.</item>
+        <item>Konfirmasi pembayaran. Tekan Ya.</item>
+        <item>Ikuti instruksi untuk menyelesaikan transaksi.</item>
+    </string-array>
+
+    <string-array name="bersama_info_array">
+        <item>Catat atau screeshot kode pembayaran setelah klik tombol "Bayar Sekarang".</item>
+        <item>Masukkan PIN kamu.</item>
+        <item>Di menu utama, pilih Transaksi lainnya.</item>
+        <item>Pilih Transfer.</item>
+        <item>Pilih ke Rek Bank lain ATM Bersama/Link.</item>
+        <item>Masukkan kode 013 dan kode pembayaran lalu tekan benar.</item>
+        <item>Masukkan jumlah Gold dalam Rupiah (IDR) yang akan dibayar secara lengkap.</item>
+        <item>Masukkan kode pembayaran lalu tekan benar.</item>
+        <item>Konfirmasi pembayaran. Tekan Ya.</item>
+        <item>Ikuti instruksi untuk menyelesaikan transaksi.</item>
+    </string-array>
+
+    <!--end-->
+
+    <!--flag in sharedpref-->
+    <string name="userid" translatable="false">userid</string>
+    <string name="username" translatable="false">username</string>
+    <string name="useremail" translatable="false">useremail</string>
+    <string name="usergender" translatable="false">usergender</string>
+    <string name="usercoin" translatable="false">usercoin</string>
+    <string name="userfirstname" translatable="false">userfirstname</string>
+    <string name="userlastname" translatable="false">userlastname</string>
+    <string name="userfirstlastname" translatable="false">userfirstlastname</string>
+    <string name="useraddress" translatable="false">useraddress</string>
+    <string name="userpoint" translatable="false">userpoint</string>
+    <string name="userscore" translatable="false">userscore</string>
+    <string name="usernativelang" translatable="false">usernativelang</string>
+    <string name="userlearnlang" translatable="false">userlearnlang</string>
+    <string name="userprogress" translatable="false">userprogress</string>
+    <string name="useravatar" translatable="false">useravatar</string>
+    <string name="userjob" translatable="false">userjob</string>
+    <string name="userabout" translatable="false">userabout</string>
+    <string name="usercountryid" translatable="false">usercountryid</string>
+    <string name="userphonenumber" translatable="false">userphonenumber</string>
+    <string name="userbirthday" translatable="false">userbirthday</string>
+    <string name="userprofilecompleted" translatable="false">userprofilecompleted</string>
+
+    <string name="courseid" translatable="false">courseid</string>
+    <string name="coursename" translatable="false">coursename</string>
+    <string name="courseimg" translatable="false">courseimg</string>
+    <string name="userlevelcourseid" translatable="false">levelid</string>
+    <string name="userlevelcoursename" translatable="false">levelname</string>
+    <string name="userlevelcoursecolor" translatable="false">levelcolor</string>
+    <string name="userlevelcourseimg" translatable="false">levelimg</string>
+
+    <string name="tokenlogin" translatable="false">access_token</string>
+    <string name="tokenregis" translatable="false">access_token</string>
+    <string name="tokenFB" translatable="false">access_token</string>
+    <string name="tokenGoogle" translatable="false">access_token</string>
+
+    <string name="isPremium" translatable="false">isPremium</string>
+    <string name="isConfirmed" translatable="false">isConfirmed</string>
+    <string name="isProfilComplete" translatable="false">isProfilComplete</string>
+    <string name="totalscore" translatable="false">totalscore</string>
+    <string name="totalpoint" translatable="false">totalpoint</string>
+    <string name="logintimestamp" translatable="false">logintimestamp</string>
+    <string name="flag_expire_token" translatable="false">flag_expire_token</string>
+    <string name="flag_current_course" translatable="false">flag_current_course</string>
+    <string name="expire_course_upgrade" translatable="false">expire_course_upgrade</string>
+    <string name="flag_edit_profile" translatable="false">flag_edit_profile</string>
+    <string name="flag_edit_gold" translatable="false">flag_edit_gold</string>
+    <string name="flag_pubnub_token_login" translatable="false">pubnub_token_login</string>
+    <string name="flag_use_mic" translatable="false">flag_use_mic</string>
+
+    <!--end-->
+
+    <!--error network-->
+    <string name="error_network_timeout">Please activate your Internet Connection</string>
+    <string name="error_server">Server in maintenance</string>
+    <string name="error_auth_failure">Authentication Problems</string>
+    <string name="error_network">Network Problems</string>
+    <string name="error_no_network">No Internet Connection</string>
+    <string name="error_internet_access">Cannot reach the server</string>
+
+    <!--end-->
+
+    <!--error register-->
+    <string name="err_first_name_must_be_filled">First name must be entered</string>
+    <string name="err_last_name_must_be_filled">Last name must be entered</string>
+    <string name="err_email_must_be_filled">Email must be entered</string>
+    <string name="err_password_must_be_filled">Password must be entered</string>
+    <string name="err_first_name_invalid_char">First name can only be filled by letters (a-z), space, and apostrophe (\')</string>
+    <string name="err_first_name_min">First name should be minimum 3 characters</string>
+    <string name="err_first_name_max">First name should be maximum 15 characters</string>
+    <string name="err_last_name_invalid_char">Last name can only be filled by letters(a-z), space, period (.), apostrophe (\'), hyphen (-)</string>
+    <string name="err_last_name_min">Last name should be minimum 2 characters</string>
+    <string name="err_last_name_max">Last name should be maximum 20 characters</string>
+    <string name="err_email_invalid">Email must be valid, e.g. john@example.com</string>
+    <string name="err_password_min">Password should be minimum 6 characters</string>
+    <string name="err_username_or_email_must_be_filled">Username or Email must be entered</string>
+    <string name="err_username_or_password_not_correct">Username or Password is not correct</string>
+    <string name="err_confirm_code_must_filled">Confirmation code must be entered</string>
+    <string name="err_gender_invalid">Please choose your gender</string>
+    <string name="err_country_invalid">Please choose your country</string>
+    <string name="err_invalid_phone_number">Invalid phone number</string>
+    <string name="err_dob_must_be_filled">Please fill your Birthdate</string>
+    <string name="err_voucher_empty">Voucher code must be filled</string>
+    <string name="err_voucher_invalid">Invalid Voucher</string>
+    <string name="err_feedback_title_must_filled">Title must be filled</string>
+    <string name="err_feedback_message_must_filled">Feedback must be filled</string>
+    <string name="err_feedback_location_must_filled">Location must be filled</string>
+    <string name="err_new_password_must_be_filled">New Password must be filled</string>
+    <string name="err_new_password_confirm_must_be_filled">Confirm new password must be filled</string>
+    <string name="err_verify_cc">Credit Card Verification Failed</string>
+    <string name="err_topup_cc_fail">Top Up Failed</string>
+    <string name="err_server_post_error">Please try connecting to server later.</string>
+    <string name="err_json_data_parse">Connection to Server failed. Please try again later. Err:"jsdat"</string>
+    <string name="err_false_stat">Connection to Server failed. Please try again later. Err:"fstat"</string>
+    <string name="error_querying_decoders" translatable="false">Unable to query device decoders</string>
+    <string name="error_no_secure_decoder" translatable="false"><![CDATA[This device does not provide a secure decoder for <xliff:g id=\"mime_type\">%1$s</xliff:g>]]></string>
+    <string name="error_no_decoder" translatable="false"><![CDATA[This device does not provide a decoder for <xliff:g id=\"mime_type\">%1$s</xliff:g>]]></string>
+    <string name="error_instantiating_decoder" translatable="false"><![CDATA[Unable to instantiate decoder <xliff:g id=\"decoder_name\">%1$s</xliff:g>]]></string>
+    <string name="err_amount_gold_empty">Gold Amount must be filled</string>
+    <string name="err_input_gold">Please check the number that you want input</string>
+    <string name="txt_type_payment">Type</string>
+    <string name="txt_va">Virtual Account Number</string>
+    <string name="premium_status" translatable="false">Premium</string>
+    <string name="txt_pay_indomaret">Payment via Indomaret</string>
+    <string name="txt_rincian_pembayaran">Payment Detail</string>
+    <string name="txt_total_payment_gold">Total Gold Payment</string>
+    <string name="txt_biaya_kenyamanan">Comfort Fee</string>
+    <string name="txt_total_dan_kode_unik">Total &amp; Unique Code</string>
+    <string name="txt_nama_dan_nomor_rekening">Please Transfer to Account Number:</string>
+    <string name="txt_already_paid">I have already paid</string>
+    <string name="txt_payment_on_proceed">We are still proceed your payment. To make it quick verification payment proceed, please upload your payment receipt.</string>
+    <string name="txt_punya_kode_voucher">Have a voucher code?\n Tukar voucher dibawah ini</string>
+    <string name="txt_profile">Profile</string>
+
+
+    <!--end-->
+    <!--Lesson-->
+    <string name="choose_first_course">Choose First Course</string>
+    <string name="placement_test_button">Placement Test</string>
+    <string name="activity_case_placement_title_left">Skip</string>
+    <string name="activity_case_placement_title_center">Placement Test</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hide_drag_case_choices">Hide</string>
+
+    <string name="case_correct">Correct</string>
+    <string name="case_wrong">Wrong</string>
+    <string name="case_key_answer">See Key Answer</string>
+    <string name="case_user_answer">See Your Answer</string>
+
+
+    <!--End Lesson-->
+
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@color/bahaso_white_gray"
+    tools:context="com.bahaso.gold.FinishPaymentBCA">
+
+    <!--<include layout="@layout/toolbar_top_nogoldbar" />-->
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:background="@color/bahaso_blue"
+        app:titleTextColor="#FFFFFF"
+        app:titleTextAppearance="@style/Toolbar.TitleText"
+        app:contentInsetStartWithNavigation="20dp"
+        app:contentInsetLeft="20dp"
+        app:contentInsetStart="20dp"/>
+
+    <ImageView
+        android:id="@+id/iv_bca_finish_pay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_gravity="center"
+        android:src="@drawable/panda_writing_done"/>
+
+    <TextView
+        android:id="@+id/txt_finish_bca_pay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:textColor="@color/bahaso_black"
+        android:text="@string/txt_payment_on_proceed"/>
+
+    <LinearLayout
+        android:id="@+id/layout_btn_finish_bca"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="18dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/background_btn_login"
+        android:clickable="true"
+        android:onClick="onClick_finishPayBCA"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_back_to_home"
+            android:textColor="@drawable/text_color_gold"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

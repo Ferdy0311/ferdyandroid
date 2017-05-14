@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="register">Daftar</string>
+    <string name="login">Masuk</string>
+    <string name="email_username">Email atau Username</string>
+    <string name="password">Kata Sandi</string>
+    <string name="forgot_pass">Lupa Password?</string>
+    <string name="title_forgot_pass">Lupa Password</string>
+    <string name="first_name">Nama Depan</string>
+    <string name="last_name">Nama Belakang</string>
+    <string name="terms">"Dengan mendaftar di sini, saya menyetujui
+                        &lt;a href=\"http://www.bahaso.com/terms\">&lt;b>Syarat &amp; Ketentuan &lt;/b> &lt;/a>
+                        dan
+                        &lt;a href=\"http://www.bahaso.com/privacy\">&lt;b>Kebijakan Privasi &lt;/b> &lt;/a>"</string>
+    <string name="sign_in_with_facebook">Masuk dengan Facebook</string>
+    <string name="sign_in_with_google">Masuk dengan Google</string>
+    <string name="txt_b4_exit">Apakah anda yakin ingin keluar?</string>
+    <string name="enter_email_to_reset">Kami akan mengirimkan instruksi cara mengatur ulang kata sandi anda melalui email.</string>
+    <string name="btn_txt_send">Kirim</string>
+    <string name="text_confirm_password">Kode Konfirmasi</string>
+    <string name="text_resend_email">Kirim Ulang Email</string>
+    <string name="email_confirmation_title">Konfirmasi Email</string>
+    <string name="text_confirm">Konfirmasi</string>
+    <string name="confirmation_text">Silakan konfirmasi dengan memasukkan kode yang dikirim ke email Anda</string>
+    <string name="tab_gold">GOLD</string>
+    <string name="tab_home">BERANDA</string>
+    <string name="tab_profil">PROFIL</string>
+    <string name="lesson">Kursus</string>
+    <string name="community">Komunitas</string>
+    <string name="voucher_text">Gunakan kode Voucher</string>
+    <string name="enter_voucher_code">Masukkan kode voucher</string>
+    <string name="redeem_voucher">Tukar Voucher</string>
+    <string name="gold_top_up_package_title">Isi Ulang Gold</string>
+    <string name="text_yes">YA</string>
+    <string name="text_no">TIDAK</string>
+    <string name="my_certificate">Sertifikat</string>
+    <string name="profile_not_filled">(belum diisi)</string>
+    <string name="premium_until_xx">Premium sampai %s</string>
+    <string name="please_enable_storage_permission">Untuk menggunakan storage,
+        silakan menuju ke Apps -> Settings -> Permissions dan izinkan penggunaan storage</string>
+    <string name="please_enable_camera_permission">Untuk menggunakan camera,
+        silakan menuju ke Apps -> Settings -> Permissions dan izinkan penggunaan camera</string>
+    <string name="select_image" >Pilih Gambar</string>
+    <string name="gender">Jenis Kelamin</string>
+    <string name="female">Perempuan</string>
+    <string name="male">Laki-laki</string>
+    <string name="birthdate">Tanggal Lahir</string>
+    <string name="country">Negara</string>
+    <string name="phone_number">No. Handphone</string>
+    <string name="hint_job">Pekerjaan</string>
+    <string name="hint_about_me">Tentang Saya</string>
+    <string name="editprofil">Ubah Profil</string>
+    <string name="simpan">Simpan</string>
+    <string name="select_country">Pilih Negara</string>
+    <string name="cancel">Batal</string>
+    <string name="refill_gold_package">Paket Isi Ulang Gold</string>
+    <string name="payment_method">Metode Pembayaran</string>
+    <string name="creditcard">Kartu Kredit</string>
+    <string name="credit_card">Kartu Kredit</string>
+    <string name="cc_number_hint">Nomor Kartu Kredit</string>
+    <string name="paynow">Bayar Sekarang</string>
+    <string name="credit_card_number_must_be_filled">Nomor kartu kredit harus diisi</string>
+    <string name="credit_card_must_be_16_digits">Nomor kartu kredit harus 16 angka</string>
+    <string name="expiry_date_must_be_filled">Expiry Date harus diisi</string>
+    <string name="cvv_must_be_filled">CVV harus di isi</string>
+    <string name="cvv_must_be_minimum_3_digits">CVV minimum harus 3 angka</string>
+    <string name="bank_transfer_info1">Mohon selesaikan pembayaran dengan ATM</string>
+    <string name="bank_transfer_info2">Pastikan kamu melakukan pembayaran dengan memasukkan kode rekening virtual dibawah ini</string>
+    <string name="bank_transfer_info3">Pastikan jumlah yang ditransfer sesuai dengan tertera</string>
+    <string name="bank_transfer_info4">Transfer pembayaran diatas sebelum:</string>
+    <string name="bank_transfer_info5">Detail pembayaran dan tata cara pembayaran bisa dilihat melalui email</string>
+    <string name="bank_transfer_info6">Gold akan bertambah setelah transfer</string>
+    <string name="alto_pay_group_name">Pembayaran lewat ATM Alto</string>
+    <string name="bca_pay_group_name">Pembayaran via ATM BCA/ Jaringan ATM Prima</string>
+    <string name="mandiri_pay_group_name">Pembayaran lewat ATM Mandiri/ Jaringan ATM Bersama</string>
+    <string name="permata_pay_group_name">Pembayaran lewat ATM Permata</string>
+    <string name="account_title">Akun</string>
+    <string name="edit_profile_title">Ubah Profil</string>
+    <string name="change_password_title">Ubah Kata Sandi</string>
+    <string name="sound_title">Suara</string>
+    <string name="no_speech_recog_detected">Pengenalan Percakapan belum tersedia di perangkat Anda</string>
+    <string name="install_google_app_message">Anda perlu mengunduh Google app dari Google Play Store untuk dapat menggunakan fitur pengenalan percakapan.</string>
+    <string name="microphone">Mikrofon</string>
+    <string name="faq">Bantuan (FAQ)</string>
+    <string name="feedback">Kritik &amp; Saran</string>
+    <string name="logout_title">Keluar</string>
+    <string name="speech_recog_permission_denied">Anda perlu memberikan permission untuk mikrofon di pengaturan aplikasi</string>
+    <string name="cannot_run_speech_recognition">Pengenalan Percakapan tidak dapat dijalankan</string>
+    <string name="speech_recog_language_no_support">Pengenalan Percakapan tidak memiliki bahasa yang diperlukan untuk pengenalan</string>
+    <string name="setting">Pengaturan</string>
+    <string name="course_not_choosen">(belum memilih kursus)</string>
+    <string name="logout_app_ask">Keluar?</string>
+    <string name="logout_app_message_ask_xxx">Anda yakin ingin keluar dari akun %s?</string>
+    <string name="change_password">Ubah Kata Sandi</string>
+    <string name="hint_cellphone_number">Nomor telepon anda (opsional)</string>
+    <string name="hint_feedback_message">Kritik atau saran</string>
+    <string name="hint_location">Lokasi anda</string>
+    <string name="hint_feedback_title">Judul</string>
+    <string name="new_password">Kata sandi baru</string>
+    <string name="old_password">Kata sandi lama</string>
+    <string name="new_password_confirm">Konfirmasi kata sandi baru</string>
+    <string name="label_enter_feedback">Silahkan memberikan kritik dan saran yang membangun agar aplikasi Bahaso lebih baik</string>
+    <string name="payment_web_exit_dialog_message">Apakah anda yakin ingin batalkan transaksi ini?</string>
+    <string name="payment_web_exit_dialog_title">Batal Transaksi?</string>
+    <string name="transfer_now">Transfer Sekarang</string>
+    <string name="date_hour_format" formatted="false">d MMMM yyyy, \'pukul\' HH:mm</string>
+    <string name="tab_course">Kursus</string>
+    <string name="tab_writing">Tulisanku</string>
+    <string name="up">Atas</string>
+    <string name="top_up_success">Top Up Berhasil</string>
+    <string name="type_here">Ketik di sini</string>
+    <string name="riwayat_pembayaran">Riwayat Pembayaran</string>
+    <string name="audio_in_progress_download">Pengunduhan Audio sedang berjalan</string>
+    <string name="txt_turn_off_microphone">Matikan Microfon</string>
+    <string name="txt_turn_on_microphone">Nyalakan Microfon</string>
+    <string name="voucher_text_code">Kode Voucher</string>
+    <string name="case_true">BENAR</string>
+    <string name="case_false">SALAH</string>
+    <string name="pilih_gold">Silahkan isi ulang gold sesuai kebutuhanmu.</string>
+    <string name="jumlah_gold">Jumlah Gold</string>
+    <string name="choose_payment_method">Pilih Metode Pembayaran</string>
+    <string name="txt_cc_pay_method">Pembayaran melalui Kartu Kredit</string>
+    <string name="txt_continue">Lanjutkan</string>
+    <string name="bank_transfer_alto">Payment via ATM Alto</string>
+    <string name="bank_transfer_bca">Bank Transfer BCA</string>
+    <string name="bank_transfer_bersama">Payment via ATM Bersama</string>
+    <string name="bank_transfer_mandiri">Bank Transfer Mandiri</string>
+    <string name="bank_transfer_permata">Bank Transfer Permata</string>
+    <string name="bank_transfer_prima">Payment via ATM Prima</string>
+    <string name="txt_gold_auto_increase">Gold otomatis bertambah setelah transaksi sukses.</string>
+    <string name="txt_make_sure_nominal_payment">Pastikan jumlah yang ditransfer adalah:</string>
+    <string name="txt_payment_code">Berikut adalah kode pembayaranmu</string>
+    <string name="txt_payment_procedures">Detail pembayaran dan tata cara pembayaran dapat dilihat kembali melalui email atau screenshot terlebih dahulu halaman ini.</string>
+    <string name="txt_back_to_home">Kembali ke beranda</string>
+    <string name="txt_no_history_payment">Tidak ada Riwayat Pembayaran</string>
+    <string name="paymentHistory">Riwayat Pembayaran</string>
+    <string name="payment_fail">Pembayaran Gagal</string>
+    <string name="payment_success">Pembayaran Sukses</string>
+    <string name="payment_wait_confirm">Menunggu Konfirmasi</string>
+    <string name="paymentHistoryDetail">Detail Pembayaran</string>
+    <string name="txt_bank_destination">Bank Tujuan</string>
+    <string name="txt_payment_method">Metode Pembayaran</string>
+    <string name="txt_failed_synchronize_google">Gagal sinkronisasi akun Google anda</string>
+    <string name="txt_more_info"><![CDATA[<b>…selengkapnya…</b>]]></string>
+    <string name="txt_failed_synchronize_facebook">Gagal sinkronisasi akun Facebook anda</string>
+
+    <!--end-->
+
+    <!--info bank-->
+    <string-array name="alto_info_array">
+        <item>Masukkan PIN Anda.</item>
+        <item>Di menu utama, pilih Transaksi lainnya.</item>
+        <item>Pilih Transfer.</item>
+        <item>Pilih ke Rek Bank Lain.</item>
+        <item>Masukkan kode 013 untuk Bank Permata lalu tekan BENAR.</item>
+        <item>Masukkan jumlah harga yang akan Anda bayar secara lengkap (tanpa pembulatan).</item>
+        <item>Masukkan kode 013 dan 16 digit no. virtual account pembayaran lalu tekan BENAR.</item>
+        <item>Di halaman konfirmasi transfer akan muncul jumlah yang dibayarkan dan no. rekening tujuan. Jika informasinya telah sesuai tekan BENAR.</item>
+        <item>Transaksi berhasil.</item>
+        <item>Biaya transaksi antar bank online adalah Rp5.000 - Rp7.500 per transaksi.</item>
+    </string-array>
+
+    <string-array name="indomaret_info_array">
+        <item>Catat atau screenshot kode pembayaran anda dan datangi gerai Indomaret terdekat.</item>
+        <item>Beritahukan ke kasir bahwa kamu ingin melakukan topup Gold Bahaso.</item>
+        <item>Jika kasir tidak mengetahui mengenai topup Gold Bahaso, informasikan ke kasir untuk pilih "menu #" Search Top Up Gold Bahaso.</item>
+        <item>Kasir akan menanyakan kode pembayaran. Berikan kode pembayaranmu. Kasir akan memberi nominal yang harus dibayarkan.</item>
+        <item>Lakukan pembayaran sesuai nominal yang disebut kasir. Pembayaran dapat menggunakan uang tunai atau non-tunai, non-tunai diantara lain Debit BCA, Kartu Debit BNI, BCA Flazz, BNI prepaid, Mandiri e-money.</item>
+        <item>Simpan struk sebagai bukti pembayaran yang sudah dilakukan. Notifikasi pembayaran akan langsung diterima merchant.</item>
+    </string-array>
+
+    <string-array name="bca_info_array">
+        <item>Catat atau screenshot harga total pembayaran setelah item klik tombol "Bayar Sekarang".</item>
+        <item>Masukkan kartu ATM dan PIN BCA kamu.</item>
+        <item>Masuk ke menu TRANSFER dan pilih TRANSFER KE REK.BCA.</item>
+        <item>Mohon transfer sesuai jumlah harga total beserta 3 digit terakhir ke:\n Nomor Rekening: 764-089-8376 \n Atas Nama: PT Bahaso Intermedia Cakrawala.</item>
+        <item>Ikuti instruksi selanjutnya untuk menyelesaikan transaksi</item>
+    </string-array>
+
+    <string-array name="mandiri_info_array">
+        <item>Catat atau screenshot harga total pembayaran setelah item klik tombol "Bayar Sekarang".</item>
+        <item>Masukkan kartu ATM dan PIN Mandiri anda.</item>
+        <item>Masuk ke menu TRANSFER dan pilih menu Pembayaran</item>
+        <item>Masukkan kode 70012 (Midtrans). Tekan Benar.</item>
+        <item>Masukkan kode pembayaran. Tekan Benar.</item>
+        <item>Konfirmasi pembayaran. Tekan Ya.</item>
+        <item>Ikuti instruksi untuk menyelesaikan transaksi.</item>
+    </string-array>
+
+    <string-array name="permata_info_array">
+        <item>Catat atau screenshot kode pembayaran setelah klik tombol "Bayar Sekarang".</item>
+        <item>Masukkan PIN Permata kamu.</item>
+        <item>Di menu utama, pilih Transfer Lainnya.</item>
+        <item>Pilih menu pembayaran.</item>
+        <item>Pilih lain-lain.</item>
+        <item>Pilih pembayaran Virtual Account, masukkan kode pembayaran. Tekan Benar.</item>
+        <item>Konfirmasikan Pembayaran. Tekan Ya.</item>
+        <item>Ikuti instruksi untuk menyelesaikan transaksi.</item>
+    </string-array>
+
+    <string-array name="prima_info_array">
+        <item>Catat atau screeshot kode pembayaran setelah klik tombol "Bayar Sekarang".</item>
+        <item>Masukkan PIN kamu.</item>
+        <item>Di menu utama, pilih Transaksi lainnya.</item>
+        <item>Pilih Transfer.</item>
+        <item>Pilih ke Rek Bank lain.</item>
+        <item>Masukkan kode 013 untuk Bank Permata lalu tekan benar.</item>
+        <item>Masukkan jumlah Gold dalam Rupiah (IDR) yang akan dibayar secara lengkap.</item>
+        <item>Masukkan kode pembayaran lalu tekan benar.</item>
+        <item>Konfirmasi pembayaran. Tekan Ya.</item>
+        <item>Ikuti instruksi untuk menyelesaikan transaksi.</item>
+    </string-array>
+
+    <string-array name="bersama_info_array">
+        <item>Catat atau screeshot kode pembayaran setelah klik tombol "Bayar Sekarang".</item>
+        <item>Masukkan PIN kamu.</item>
+        <item>Di menu utama, pilih Transaksi lainnya.</item>
+        <item>Pilih Transfer.</item>
+        <item>Pilih ke Rek Bank lain ATM Bersama/Link.</item>
+        <item>Masukkan kode 013 dan kode pembayaran lalu tekan benar.</item>
+        <item>Masukkan jumlah Gold dalam Rupiah (IDR) yang akan dibayar secara lengkap.</item>
+        <item>Masukkan kode pembayaran lalu tekan benar.</item>
+        <item>Konfirmasi pembayaran. Tekan Ya.</item>
+        <item>Ikuti instruksi untuk menyelesaikan transaksi.</item>
+    </string-array>
+    <!--end-->
+
+    <!--error network-->
+    <string name="error_network_timeout">Tolong aktifkan koneksi internet anda</string>
+    <string name="error_server">Server Bermasalah</string>
+    <string name="error_auth_failure">Authentication Bermasalah</string>
+    <string name="error_network">Jaringan Bermasalah</string>
+    <string name="error_no_network">Tidak ada koneksi internet</string>
+    <string name="error_internet_access">Tidak dapat terhubung ke server</string>
+    <!--end-->
+
+    <!--error register-->
+    <string name="err_first_name_must_be_filled">Nama depan harus diisi</string>
+    <string name="err_last_name_must_be_filled">Nama belakang harus diisi</string>
+    <string name="err_email_must_be_filled">Email harus diisi</string>
+    <string name="err_password_must_be_filled">Kata sandi harus diisi</string>
+    <string name="err_first_name_invalid_char">Isian nama depan hanya boleh diisi huruf, spasi dan apostrof (\')</string>
+    <string name="err_first_name_min">Nama depan minimum 3 karakter</string>
+    <string name="err_first_name_max">Nama depan maksimum 15 karakter</string>
+    <string name="err_last_name_invalid_char">Nama belakang hanya boleh diisi huruf, spasi, titik, apostrof (\') dan tanda hubung (-)</string>
+    <string name="err_last_name_min">Nama belakang minimum 2 karakter</string>
+    <string name="err_last_name_max">Nama belakang maksimum 20 karakter</string>
+    <string name="err_email_invalid">Email harus valid, contoh john@example.com</string>
+    <string name="err_password_min">Kata sandi minimum 6 karakter</string>
+    <string name="err_username_or_email_must_be_filled">Username atau email harus diisi</string>
+    <string name="err_username_or_password_not_correct">Username atau password Anda salah</string>
+    <string name="err_confirm_code_must_filled">Kode konfirmasi harus diisi</string>
+    <string name="err_country_invalid">Mohon untuk pilih negara anda</string>
+    <string name="err_gender_invalid">Mohon pilih jenis kelamin anda</string>
+    <string name="err_invalid_phone_number">Nomor telepon tidak benar</string>
+    <string name="err_dob_must_be_filled">Mohon isi tanggal lahir anda</string>
+    <string name="err_voucher_empty">Kode voucher harus diisi</string>
+    <string name="err_voucher_invalid">Kode voucher tidak valid</string>
+    <string name="err_feedback_location_must_filled">Lokasi harus diisi</string>
+    <string name="err_feedback_message_must_filled">Kritik dan Saran harus diisi</string>
+    <string name="err_feedback_title_must_filled">Judul harus diisi</string>
+    <string name="err_new_password_confirm_must_be_filled">Konfirmasi kata sandi baru harus diisi</string>
+    <string name="err_new_password_must_be_filled">Kata sandi baru harus diisi</string>
+    <string name="err_topup_cc_fail">Top Up Gagal</string>
+    <string name="err_verify_cc">Verifikasi Kartu Kredit Gagal</string>
+    <string name="err_false_stat">Koneksi ke server gagal. Mohon dicoba kembali . Err: \"fstat\"</string>
+    <string name="err_json_data_parse">Koneksi ke server gagal. Mohon dicoba kembali. Err:\"jsdat\"</string>
+    <string name="err_server_post_error">Mohon coba konek ke server kembali.</string>
+    <string name="err_amount_gold_empty">Nominal Gold harus diisi</string>
+    <string name="err_input_gold">Mohon periksa angka yang anda masukkan</string>
+    <string name="txt_type_payment">Tipe</string>
+    <string name="txt_va">Nomor Akun Virtual</string>
+    <string name="txt_pay_indomaret">Pembayaran melalui Indomaret</string>
+    <string name="txt_rincian_pembayaran">Rincian Pembayaran</string>
+    <string name="txt_total_payment_gold">Total Pembayaran Gold</string>
+    <string name="txt_biaya_kenyamanan">Biaya Kenyamanan</string>
+    <string name="txt_total_dan_kode_unik">Total &amp; Kode Unik</string>
+    <string name="txt_nama_dan_nomor_rekening">Silahkan ditransfer ke nomor rekening:</string>
+    <string name="txt_already_paid">Saya sudah bayar</string>
+    <string name="txt_payment_on_proceed">Pembayaran anda sedang kami proses. Untuk mempercepat proses verifikasi pembayaran, silahkan unggah bukti pembayaran anda.</string>
+    <string name="txt_punya_kode_voucher">Punya kode voucher?\n Tukar voucher dibawah ini.</string>
+    <string name="txt_profile">Profil</string>
+
+    <!--Lesson-->
+    <string name="choose_first_course">Pilih Kursus Pertama</string>
+    <string name="placement_test_button">Tes Penempatan</string>
+    <string name="activity_case_placement_title_left">Lewati</string>
+    <string name="activity_case_placement_title_center">Tes Penempatan</string>
+
+    <string name="hide_drag_case_choices">Sembunyikan</string>
+
+    <string name="case_correct">Benar</string>
+    <string name="case_wrong">Salah</string>
+    <string name="case_key_answer">Lihat Kunci Jawaban</string>
+    <string name="case_user_answer">Lihat Jawabanmu</string>
+
+    <!--End Lesson-->
+</resources>

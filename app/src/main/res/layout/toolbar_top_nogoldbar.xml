@@ -1,0 +1,53 @@
+<android.support.design.widget.AppBarLayout android:id="@+id/appbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--<android.support.v7.widget.Toolbar-->
+        <!--android:id="@+id/toolbar"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="?attr/actionBarSize"-->
+        <!--android:background="@color/bahaso_blue"-->
+        <!--app:navigationContentDescription="@string/up"-->
+        <!--app:navigationIcon="@drawable/ic_arrow_back_white_24dp"-->
+        <!--app:contentInsetStartWithNavigation="0dp">-->
+        <!--&lt;!&ndash;app:navigationIcon="@drawable/back"&ndash;&gt;-->
+        <!--&lt;!&ndash;app:contentInsetStart="0dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;app:contentInsetLeft="0dp"&ndash;&gt;-->
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?attr/actionBarSize"
+            android:background="@color/bahaso_blue"
+            app:titleTextColor="#FFFFFF"
+            app:titleTextAppearance="@style/Toolbar.TitleText"
+            app:contentInsetStartWithNavigation="0dp"
+            app:contentInsetLeft="0dp"
+            app:contentInsetStart="0dp">
+
+            <!--<TextView-->
+                <!--android:id="@+id/tv_toolbar_title"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textSize="18sp"-->
+                <!--android:gravity="start"-->
+                <!--android:textColor="@color/bahaso_white_gray"-->
+                <!--android:textStyle="bold"/>-->
+
+    </android.support.v7.widget.Toolbar>
+
+        <!--<com.bahaso.widget.MuseoTextView-->
+            <!--android:id="@+id/tv_toolbar_title"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textSize="@dimen/subtitle_font_size"-->
+            <!--android:gravity="start"-->
+            <!--android:textColor="@color/bahaso_white_gray"-->
+            <!--app:tv_textStyle="bold"/>-->
+
+    <!--</android.support.v7.widget.Toolbar>-->
+
+</android.support.design.widget.AppBarLayout>

@@ -1,0 +1,81 @@
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/linearlayoutcontent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout
+            android:id="@+id/vg_question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:orientation="vertical">
+            <!-- question will be put here, depend on the type
+                    -->
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutInnerContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--<com.bahaso.widget.MuseoTextView-->
+                <!--android:id="@+id/tv_choices"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:gravity="center"-->
+                <!--android:paddingLeft="@dimen/spacing_32"-->
+                <!--android:paddingRight="@dimen/spacing_32"-->
+                <!--android:visibility="gone"/>-->
+
+            <!--<FrameLayout-->
+                <!--android:id="@+id/vg_speech_outer"-->
+                <!--android:layout_width="@dimen/bahaso_case_speech_recognizer_width_large"-->
+                <!--android:layout_height="@dimen/bahaso_case_speech_recognizer_width_large"-->
+                <!--android:layout_marginTop="@dimen/spacing_48"-->
+                <!--android:layout_gravity="center_horizontal">-->
+
+            <!--<com.bahaso.widget.MuseoTextView-->
+                <!--android:id="@+id/tv_speech_result"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:gravity="center"-->
+                <!--android:padding="@dimen/spacing_4"-->
+                <!--android:layout_marginTop="@dimen/spacing_4"-->
+                <!--android:layout_marginBottom="@dimen/spacing_4"-->
+                <!--android:layout_marginLeft="@dimen/spacing_32"-->
+                <!--android:layout_marginRight="@dimen/spacing_32"-->
+                <!--android:background="@drawable/selector_rect_selectable_nocorner"-->
+                <!--android:textColor="@color/selector_text_black2white"/>-->
+
+            <!--<include layout="@layout/case_single_edittext_matchparent"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="@dimen/spacing_48"-->
+                <!--android:layout_marginLeft="@dimen/spacing_32"-->
+                <!--android:layout_marginRight="@dimen/spacing_32"/>-->
+
+            <!--<com.bahaso.widget.MuseoTextView-->
+                <!--android:id="@+id/tv_turnonoff_microphone"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="@dimen/spacing_16"-->
+                <!--android:layout_marginBottom="@dimen/spacing_8"-->
+                <!--android:textColor="@color/bahaso_blue"-->
+                <!--android:layout_gravity="center_horizontal"-->
+                <!--app:tv_textStyle="underline"-->
+                <!--android:text="@string/txt_turn_off_microphone"-->
+                <!--android:clickable="true"/>-->
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,140 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:splitMotionEvents="false"
+    android:windowEnableSplitTouch="false"
+    android:clickable="true"
+    android:layout_height="match_parent"
+    tools:context="com.bahaso.typecase.BoxMatchParagraphFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:id="@+id/relativeLayoutBoxMatchParagraphCaseContainer"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+        <RelativeLayout
+            android:clipChildren="false"
+            android:clipToPadding="false"
+
+            android:id="@+id/relativeLayoutCaseSubContainer"
+            android:layout_width="match_parent"
+            android:layout_height="233dp"
+            >
+
+            <ScrollView
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:id="@+id/scrollViewBoxMatchParagraphCaseContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fadeScrollbars="false"
+                android:scrollbarSize="4dp"
+                android:scrollbarThumbVertical="@color/bahaso_transparent_gray"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+
+
+                <com.google.android.flexbox.FlexboxLayout
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    app:alignItems="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="15dp"
+                    android:paddingLeft="15dp"
+                    android:paddingBottom="15dp"
+                    android:id="@+id/flexBoxBoxMatchParagraphCaseContainer"
+                    app:flexWrap="wrap">
+                    <TextView
+                        android:clipChildren="false"
+                        android:clipToPadding="false"
+                        android:layout_marginBottom="20dp"
+
+                        android:textColor="@color/bahaso_black"
+                        android:id="@+id/textViewBoxMatchParagraphInstruction"
+                        android:layout_width="match_parent"
+                        android:layout_height="53dp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:gravity="center"
+                        android:text="ewTextViewTextView" />
+
+
+                </com.google.android.flexbox.FlexboxLayout>
+
+
+            </ScrollView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_below="@+id/relativeLayoutBoxMatchParagraphCaseContainer"
+        android:id="@+id/relativeLayoutBoxMatchParagraphContainerDragChoices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:gravity="center"
+
+        android:background="@drawable/background_square_border_bottom_top"
+        >
+        <include layout="@layout/layout_button_drag_hide_choices"
+            />
+
+
+        <ScrollView
+
+            android:id="@+id/scrollViewBoxMatchParagraphCaseDragChoices"
+            android:layout_below="@+id/buttonHideDragChoices"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:fadeScrollbars="false"
+            android:scrollbarSize="4dp"
+            android:scrollbarThumbVertical="@color/bahaso_transparent_gray"
+
+            android:padding="5dp"
+            >
+
+
+            <com.google.android.flexbox.FlexboxLayout
+                android:clipChildren="false"
+                android:clipToPadding="false"
+
+                android:layout_width="match_parent"
+                android:id="@+id/flexBoxBoxMatchParagraphCaseChoicesContainer"
+                app:flexWrap="wrap"
+                android:padding="5dp"
+                app:justifyContent="center"
+                android:layout_height="match_parent"
+                app:alignItems="flex_start"
+                >
+
+            </com.google.android.flexbox.FlexboxLayout>
+
+
+
+        </ScrollView>
+
+
+
+
+    </RelativeLayout>
+</RelativeLayout>

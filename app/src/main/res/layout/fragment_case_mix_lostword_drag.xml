@@ -1,0 +1,69 @@
+<com.bahaso.widget.DragContainer
+    android:id="@+id/dragContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <!--
+        <include layout="@layout/case_instruction_text" /> -->
+
+        <ScrollView
+            android:id="@+id/scrollview_case_content"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <include layout="@layout/case_instruction_text" />
+
+                <include layout="@layout/case_single_image_with_frame" />
+
+                <include layout="@layout/case_single_speaker_medium" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:orientation="vertical">
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </ScrollView>
+
+        <include layout="@layout/case_single_line_scrollview_button_group" />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="4dp"
+        card_view:cardElevation="6dp"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardPreventCornerOverlap="false"
+        android:visibility="gone">
+        <ImageView
+            android:id="@+id/iv_drag_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <!--android:background="@android:drawable/dialog_holo_light_frame"-->
+    </android.support.v7.widget.CardView>
+
+</com.bahaso.widget.DragContainer>

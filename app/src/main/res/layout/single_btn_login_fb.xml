@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_btn_login_fb"
+    android:layout_width="264dp"
+    android:layout_height="40dp"
+    android:layout_marginTop="25dp"
+    android:layout_gravity="center"
+    android:gravity="start|center"
+    android:background="@drawable/background_btn_splash_fb"
+    android:clickable="true"
+    android:visibility="gone">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/icon_fb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"
+        app:srcCompat="@drawable/svg_icon_fb" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/icon_fb"
+        android:layout_toEndOf="@+id/icon_fb"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:text="@string/sign_in_with_facebook" />
+
+</RelativeLayout>

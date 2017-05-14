@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="StateImageView">
+        <attr name="siv_disabled_mode">
+            <enum name="src_atop" value="1" />
+            <enum name="multiply" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="creditcard">
+        <attr name="cvv" format="integer" />
+        <attr name="card_expiration_month" format="integer" />
+        <attr name="card_expiration_year" format="integer" />
+        <attr name="card_holder_name" format="string" />
+        <attr name="card_number" format="string" />
+        <attr name="card_side" format="enum">
+            <enum name="front" value="1" />
+            <enum name="back" value="0" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="CVBankGroup">
+        <attr name="cvbankgroup_name" format="string" localization="suggested" />
+        <attr name="cvbankgroup_src" format="reference"/>
+        <attr name="cvbankgroup_isExpanded" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="FlowLayout">
+        <attr name="android:orientation" />
+        <attr name="layoutDirection" format="enum">
+            <enum name="ltr" value="0"/>
+            <enum name="rtl" value="1"/>
+        </attr>
+        <attr name="debugDraw" format="boolean"/>
+        <attr name="weightDefault" format="float" />
+        <attr name="android:gravity"/>
+    </declare-styleable>
+
+    <declare-styleable name="WifekaFlowLayout">
+        <attr name="android:gravity" />
+    </declare-styleable>
+
+    <declare-styleable name="FlowLayout_Layout">
+        <attr name="android:layout_gravity" />
+    </declare-styleable>
+
+    <declare-styleable name="drop">
+        <attr name="state_dropped" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleProgressView">
+        <!-- Text-->
+        <attr name="cpv_text" format="string"/>
+        <attr name="cpv_unit" format="string"/>
+        <attr name="cpv_textColor" format="color"/>
+        <attr name="cpv_unitColor" format="color"/>
+        <attr name="cpv_showUnit" format="boolean"/>
+        <attr name="cpv_autoTextColor" format="boolean"/>
+        <attr name="cpv_textTypeface" format="string"/>
+        <attr name="cpv_unitTypeface" format="string"/>
+        <attr name="cpv_decimalFormat" format="string"/>
+
+        <!-- Text sizes-->
+        <attr name="cpv_textSize" format="dimension"/>
+        <attr name="cpv_unitSize" format="dimension"/>
+        <attr name="cpv_textScale" format="float"/>
+        <attr name="cpv_unitScale" format="float"/>
+        <attr name="cpv_unitToTextScale" format="float"/>
+        <attr name="cpv_autoTextSize" format="boolean"/>
+
+        <!-- Progress Bar -->
+        <attr name="cpv_value" format="float"/>
+        <attr name="cpv_maxValue" format="float"/>
+        <attr name="cpv_barWidth" format="dimension"/>
+        <attr name="cpv_barColor" format="color"/>
+        <attr name="cpv_barColor1" format="color"/>
+        <attr name="cpv_barColor2" format="color"/>
+        <attr name="cpv_barColor3" format="color"/>
+        <attr name="cpv_startAngle" format="integer"/>
+
+        <!-- Spinner-->
+        <attr name="cpv_spinColor" format="color"/>
+        <attr name="cpv_spinSpeed" format="float"/>
+        <attr name="cpv_spinBarLength" format="float"/>
+        <attr name="cpv_showTextInSpinningMode" format="boolean"/>
+
+        <!-- Rim-->
+        <attr name="cpv_rimColor" format="color"/>
+        <attr name="cpv_rimWidth" format="dimension"/>
+
+        <!-- Contour-->
+        <attr name="cpv_contourColor" format="color"/>
+        <attr name="cpv_contourSize" format="dimension"/>
+
+        <!-- Background color-->
+        <attr name="cpv_fillColor" format="color"/>
+
+        <!-- Seek mode-->
+        <attr name="cpv_seekMode" format="boolean"/>
+
+        <!-- Block -->
+        <attr name="cpv_blockCount" format="integer"/>
+        <attr name="cpv_blockScale" format="float"/>
+
+        <attr name="cpv_textMode" format="enum">
+            <enum name="Text" value="0"/>
+            <enum name="Percent" value="1"/>
+            <enum name="Value" value="2"/>
+        </attr>
+
+        <attr name="cpv_unitPosition" format="enum">
+            <enum name="top" value="0"/>
+            <enum name="bottom" value="1"/>
+            <enum name="left_top" value="2"/>
+            <enum name="right_top" value="3"/>
+            <enum name="left_bottom" value="2"/>
+            <enum name="right_bottom" value="3"/>
+        </attr>
+
+    </declare-styleable>
+
+    <declare-styleable name="TouchListView">
+        <attr name="normal_height" format="dimension" />
+        <attr name="expanded_height" format="dimension" />
+        <attr name="grabber" format="reference" />
+        <attr name="dragndrop_background" format="color" />
+        <attr name="remove_mode">
+            <enum name="none" value="-1" />
+            <enum name="fling" value="0" />
+            <enum name="slide" value="1" />
+            <enum name="slideRight" value="1" />
+            <enum name="slideLeft" value="2" />
+        </attr>
+    </declare-styleable>
+    
+    <declare-styleable name="answer">
+        <attr name="state_case" format="boolean" />
+        <attr name="state_answered" format="boolean" />
+        <attr name="state_correct" format="boolean" />
+        <attr name="state_narration" format="boolean" />
+        <attr name="state_intest" format="boolean" />
+        <attr name="state_locked" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="ExpandableTextView">
+        <attr name="trimLength" format="integer"/>
+    </declare-styleable>
+
+</resources>
