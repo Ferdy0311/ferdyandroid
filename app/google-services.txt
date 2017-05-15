@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "419452257310",
+    "firebase_url": "https://bahaso-991.firebaseio.com",
+    "project_id": "bahaso-991",
+    "storage_bucket": "bahaso-991.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:419452257310:android:c1d6c4cf42b3da74",
+        "android_client_info": {
+          "package_name": "com.bahaso"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "419452257310-cnsanr3jla4iq7gviscl808but51i4b8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bahaso",
+            "certificate_hash": "877fcb21e874d68456a5cbfd94f653b7dac3d334"
+          }
+        },
+        {
+          "client_id": "419452257310-c4mei46pq1ghbq25sf68gamtt2rhuiv4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bahaso",
+            "certificate_hash": "68b30158ae5cc8363faaf718648dc45c90db0027"
+          }
+        },
+        {
+          "client_id": "419452257310-ial1fe0suso53313qrcd4822n0aqf8c8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bahaso",
+            "certificate_hash": "b33421d4995aa13d924e37d5de48c8805f356c11"
+          }
+        },
+        {
+          "client_id": "419452257310-9a4nta0vg0cv37ul0kaod92r3q5ot5fa.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "419452257310-qc3uuia3brsoqceh2q3ih3mcqdl03ejb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWuePzwkITGsjDaj617HkRksOzOquO7X8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-66234596-1"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

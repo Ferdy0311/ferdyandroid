@@ -13,22 +13,43 @@ import android.text.TextUtils;
 import android.text.method.LinkMovementMethod;
 import android.util.Log;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import com.android.volley.AuthFailureError;
+import com.android.volley.DefaultRetryPolicy;
+import com.android.volley.NetworkError;
+import com.android.volley.NoConnectionError;
+import com.android.volley.Request;
+import com.android.volley.Response;
+import com.android.volley.ServerError;
+import com.android.volley.TimeoutError;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.StringRequest;
+import com.android.volley.toolbox.Volley;
 import com.bahaso.R;
 import com.bahaso.globalvar.GlobalVar;
+import com.bahaso.model.City;
 import com.bahaso.model.Country;
 import com.bahaso.util.CountryHelper;
 import com.bahaso.util.CountryPickerDialog;
 
-import java.util.List;
+import org.json.JSONArray;
+import org.json.JSONObject;
 
-public class RegisterLocation extends AppCompatActivity{
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+public class RegisterLocation extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
     Context applicationContext;
-    private String URL_REGISTER, firstnameuser, lastnameuser, emailuser, password_user, confirmationPassword_user, usergender;
+    private String URL_REGISTER,URL_CITY, firstnameuser, lastnameuser, emailuser, password_user, confirmationPassword_user, usergender;
     private String usercountrycode="";
     private TextView tv_country_code, tv_country;
     private Bundle bundle;
@@ -38,6 +59,8 @@ public class RegisterLocation extends AppCompatActivity{
     private CountryPickerDialog mCountryDialog;
     private Country selectedCountry = null;
     private int mSelectedIndex = -1;
+    private List<City> mCityList = new ArrayList<>();
+    private Spinner spinnerCity;
 
     @TargetApi(Build.VERSION_CODES.N)
     @Override
@@ -66,6 +89,7 @@ public class RegisterLocation extends AppCompatActivity{
 
         final GlobalVar global = (GlobalVar)applicationContext;
         URL_REGISTER = global.getBaseURLpath() + "signup/";
+        URL_CITY = global.getBaseURLpath() + "cities/";
 
         bundle = getIntent().getExtras();
         firstnameuser = bundle.getString("firstname");
@@ -81,6 +105,9 @@ public class RegisterLocation extends AppCompatActivity{
         tv_country = (TextView)findViewById(R.id.tv_input_country_register_location);
         tv_country_code = (TextView)findViewById(R.id.tv_calling_code_register_location);
         layoutCountry = (TextInputLayout) findViewById(R.id.tin_country_register_location);
+        spinnerCity = (Spinner) findViewById(R.id.sp_input_city_register_location);
+
+        spinnerCity.setOnItemSelectedListener(this);
 
         rbMale.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -96,6 +123,72 @@ public class RegisterLocation extends AppCompatActivity{
         });
 
 
+    }
+
+    public void getCityName(){
+
+    }
+
+    public void request_getCity(final String token){
+        StringRequest request = new StringRequest(Request.Method.GET, URL_CITY, new Response.Listener<String>() {
+            @Override
+            public void onResponse(String response) {
+                try {
+                    JSONObject jsonResponse = new JSONObject(response);
+                    String status = jsonResponse.getString("status");
+                    String message = jsonResponse.getString("message");
+
+                    if(status.equals("true")){
+                        JSONArray jsonCityArray = jsonResponse.getJSONArray("data");
+                        for(int i = 0; i< jsonCityArray.length(); i++){
+                            JSONObject jsonCityObject = jsonCityArray.getJSONObject(i);
+                            String countryId = jsonCityObject.getString("country_iso_3166_2");
+                            int cityId = jsonCityObject.getInt("raw_city_id");
+                            String cityType = jsonCityObject.getString("type");
+                            String cityName = jsonCityObject.getString("name");
+                            City city = new City(cityName, cityId, cityType, countryId);
+                            mCityList.add(city);
+                        }
+                    }
+
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                if (error instanceof NoConnectionError) {
+                    Toast.makeText(getApplicationContext(),
+                            getApplicationContext().getString(R.string.error_network_timeout),
+                            Toast.LENGTH_LONG).show();
+                } else if (error instanceof AuthFailureError) {
+                    Toast.makeText(getApplicationContext(),
+                            getApplicationContext().getString(R.string.error_auth_failure),
+                            Toast.LENGTH_LONG).show();
+                } else if (error instanceof ServerError) {
+                    Toast.makeText(getApplicationContext(),
+                            getApplicationContext().getString(R.string.error_server),
+                            Toast.LENGTH_LONG).show();
+                } else if (error instanceof NetworkError || error instanceof TimeoutError) {
+                    Toast.makeText(getApplicationContext(),
+                            getApplicationContext().getString(R.string.error_internet_access),
+                            Toast.LENGTH_LONG).show();
+                }
+            }
+        }) {
+            @Override
+            public Map<String, String> getHeaders() {
+                Map<String, String> params = new HashMap<>();
+                // the POST parameters:
+                params.put("Authorization", "Bearer " + token);
+                return params;
+            }
+        };
+        request.setRetryPolicy(new DefaultRetryPolicy(5000, DefaultRetryPolicy.DEFAULT_MAX_RETRIES,
+                DefaultRetryPolicy.DEFAULT_BACKOFF_MULT));
+
+        Volley.newRequestQueue(getApplicationContext()).add(request);
     }
 
     public void onClick_registerLocation(View view){
@@ -182,5 +275,15 @@ public class RegisterLocation extends AppCompatActivity{
         } else {
             tv_country_code.setText("+00");
         }
+    }
+
+    @Override
+    public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+
+    }
+
+    @Override
+    public void onNothingSelected(AdapterView<?> parent) {
+
     }
 }

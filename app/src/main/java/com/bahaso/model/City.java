@@ -5,11 +5,11 @@ import android.support.annotation.NonNull;
 public class City implements Comparable<City>{
 
     String name;
-    String cityId;
+    int cityId;
     String type;
     String countryId;
 
-    public City(String cityName, String cityId, String type, String countryId){
+    public City(String cityName, int cityId, String type, String countryId){
         this.name = cityName;
         this.cityId = cityId;
         this.type = type;
@@ -25,7 +25,7 @@ public class City implements Comparable<City>{
         return name;
     }
 
-    public String getCityId() {
+    public int getCityId() {
         return cityId;
     }
 
