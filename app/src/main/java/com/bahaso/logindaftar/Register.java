@@ -167,6 +167,7 @@ public class Register extends AppCompatActivity {
                         && (!lastnameuser.isEmpty() && (lastnameuser.length() >=2 && lastnameuser.length() <= 20))
                         && (!emailuser.isEmpty() && ValidatorHelper.isValidEmailAddress(emailuser)) && (!password_user.isEmpty() && password_user.length() >= 6)
                         && (!confirmationPassword_user.isEmpty()&& confirmationPassword_user.equals(password_user))) {
+//                    register_new_user_to_server();
                     toRegisterLocation(firstnameuser, lastnameuser, emailuser, password_user, confirmationPassword_user);
                 }
 
@@ -239,8 +240,8 @@ public class Register extends AppCompatActivity {
                                 getSharedPref().edit().putString(getString(R.string.isProfilComplete), jsonUser.getString("profile_completed")).apply();
 
                                 hidePDialog();
-                                Intent confirm = new Intent(Register.this, Confirm.class);
-                                startActivity(confirm);
+                                Intent RegisterLocation = new Intent(Register.this, RegisterLocation.class);
+                                startActivity(RegisterLocation);
                                 finish();
 
                             } else {

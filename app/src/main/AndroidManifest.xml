@@ -119,6 +119,12 @@
             android:label="@string/txt_profile"
             android:screenOrientation="portrait"
             android:theme="@style/TestingTheme" />
+        
+        <activity
+            android:name=".profile.CompleteActivity"
+            android:label="LENGKAPI DATAMU"
+            android:screenOrientation="portrait"
+            android:theme="@style/TestingTheme"/>
         <activity
             android:name=".profile.EditProfil"
             android:label="@string/editprofil"

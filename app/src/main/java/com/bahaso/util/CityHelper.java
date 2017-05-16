@@ -28,7 +28,7 @@ public class CityHelper {
                     for(int i = 0, size = jsonCitiesArray.length(); i < size; i++){
                         JSONObject jsonCityObject = jsonCitiesArray.getJSONObject(i);
                         String cityName = jsonCityObject.getString("name");
-                        String cityId = jsonCityObject.getString("raw_city_id");
+                        int cityId = jsonCityObject.getInt("raw_city_id");
                         String type = jsonCityObject.getString("type");
                         String countryId = jsonCityObject.getString("country_iso_3166_2");
                         City city = new City(cityName, cityId, type, countryId);

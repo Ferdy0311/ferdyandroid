@@ -3,6 +3,7 @@ package com.bahaso;
 import android.Manifest;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.graphics.PorterDuff;
 import android.net.Uri;
@@ -29,23 +30,42 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.android.volley.AuthFailureError;
+import com.android.volley.DefaultRetryPolicy;
+import com.android.volley.NetworkError;
+import com.android.volley.NoConnectionError;
+import com.android.volley.Request;
+import com.android.volley.Response;
+import com.android.volley.ServerError;
+import com.android.volley.TimeoutError;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.StringRequest;
+import com.android.volley.toolbox.Volley;
 import com.bahaso.adapter.ViewPagerAdapterHome;
 import com.bahaso.globalvar.GlobalVar;
 import com.bahaso.globalvar.GoogleAnalyticsHelper;
 import com.bahaso.home.SettingFeedback;
 import com.bahaso.home.SettingsActivity;
+import com.bahaso.profile.CompleteActivity;
 import com.bahaso.profile.ProfilActivity;
 import com.bahaso.util.ActivityRequestCode;
 import com.bahaso.util.ViewUtil;
 import com.google.android.gms.analytics.Tracker;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.io.File;
+import java.util.HashMap;
+import java.util.Map;
 
 public class MainActivity extends AppCompatActivity {
 
     private static final String SCREEN_NAME = "Home";
     private GoogleAnalyticsHelper GoogleHelper;
     private AppCompatImageView compatImageView;
+    private SharedPreferences sharedpref;
+    private String URL_PROFILE;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -92,6 +112,80 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        request_getProfile(getSharedPref().getString(getString(R.string.tokenlogin),""));
+
+        //|| getSharedPref().getString(getString(R.string.usercity), "").isEmpty()
+        if(getSharedPref().getString(getString(R.string.usergender), "").isEmpty()
+                || getSharedPref().getString(getString(R.string.userbirthday), "").isEmpty()
+                || getSharedPref().getString(getString(R.string.userphonenumber), "").isEmpty()) {
+            startActivity(new Intent(this, CompleteActivity.class));
+        }
+    }
+
+    private SharedPreferences getSharedPref(){
+        if(sharedpref==null){
+            sharedpref = GlobalVar.getInstance().getSharedPreferences();
+        }
+        return sharedpref;
+    }
+
+    private void request_getProfile(final String token) {
+        StringRequest request = new StringRequest(Request.Method.GET, URL_PROFILE, new Response.Listener<String>() {
+            @Override
+            public void onResponse(String response) {
+                try {
+                    JSONObject jsonResponse = new JSONObject(response);
+                    String status = jsonResponse.getString("status");
+
+                    if(status.equals("true")){
+                        JSONObject jsonData = jsonResponse.getJSONObject("data");
+
+                        getSharedPref().edit().putString(getString(R.string.usergender), jsonData.getString("gender")).apply();
+                        getSharedPref().edit().putString(getString(R.string.userbirthday), jsonData.getString("birthday")).apply();
+                        //getSharedPref().edit().putString(getString(R.string.usercity), jsonData.getString("city")).apply();
+                        getSharedPref().edit().putString(getString(R.string.usercountryid), jsonData.getString("country_id")).apply();
+                        getSharedPref().edit().putString(getString(R.string.userphonenumber), jsonData.getString("cellphonenumber")).apply();
+
+                    }
+
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+            }
+        }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                if (error instanceof NoConnectionError) {
+                    Toast.makeText(getApplicationContext(),
+                            getApplicationContext().getString(R.string.error_network_timeout),
+                            Toast.LENGTH_LONG).show();
+                } else if (error instanceof AuthFailureError) {
+                    Toast.makeText(getApplicationContext(),
+                            getApplicationContext().getString(R.string.error_auth_failure),
+                            Toast.LENGTH_LONG).show();
+                } else if (error instanceof ServerError) {
+                    Toast.makeText(getApplicationContext(),
+                            getApplicationContext().getString(R.string.error_server),
+                            Toast.LENGTH_LONG).show();
+                } else if (error instanceof NetworkError || error instanceof TimeoutError) {
+                    Toast.makeText(getApplicationContext(),
+                            getApplicationContext().getString(R.string.error_internet_access),
+                            Toast.LENGTH_LONG).show();
+                }
+            }
+        }){
+            @Override
+            public Map<String, String> getHeaders() {
+                Map<String, String> params = new HashMap<>();
+                // the POST parameters:
+                params.put("Authorization", "Bearer " + token);
+                return params;
+            }
+        };
+        request.setRetryPolicy(new DefaultRetryPolicy(5000, DefaultRetryPolicy.DEFAULT_MAX_RETRIES,
+                DefaultRetryPolicy.DEFAULT_BACKOFF_MULT));
+
+        Volley.newRequestQueue(getApplicationContext()).add(request);
     }
 
     private void InitGoogleAnalytics() {
